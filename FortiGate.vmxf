@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Foundry>
+<VM>
+<VMId type="string">52 c0 73 d7 2f 8f 82 a5-98 7f 32 e6 63 c9 17 1c</VMId>
+<ClientMetaData>
+<clientMetaDataAttributes/>
+<HistoryEventList/></ClientMetaData>
+<vmxPathName type="string">FortiGate.vmx</vmxPathName></VM></Foundry>

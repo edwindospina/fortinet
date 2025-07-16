@@ -1,0 +1,1299 @@
+2016-08-26T09:10:02.373+05:30| vmx| I120: Log for VMware Workstation pid=3156 version=8.0.1 build=build-528992 option=Release
+2016-08-26T09:10:02.373+05:30| vmx| I120: The process is 32-bit.
+2016-08-26T09:10:02.373+05:30| vmx| I120: Host codepage=windows-1252 encoding=windows-1252
+2016-08-26T09:10:02.373+05:30| vmx| I120: Host is Windows 7 Ultimate, 32-bit  (Build 7600)
+2016-08-26T09:10:02.123+05:30| vmx| I120: VTHREAD initialize main thread 0 "vmx" host id 5648
+2016-08-26T09:10:02.123+05:30| vmx| I120: LOCALE windows-1252 -> NULL User=409 System=409
+2016-08-26T09:10:02.123+05:30| vmx| I120: Msg_SetLocaleEx: HostLocale=windows-1252 UserLocale=NULL
+2016-08-26T09:10:02.123+05:30| vmx| I120: Msg_Reset:
+2016-08-26T09:10:02.123+05:30| vmx| I120: [msg.dictionary.load.openFailed] Cannot open file "C:\Users\ANJAN\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2016-08-26T09:10:02.123+05:30| vmx| I120: ----------------------------------------
+2016-08-26T09:10:02.123+05:30| vmx| I120: ConfigDB: Failed to load C:\Users\ANJAN\AppData\Roaming\VMware\config.ini
+2016-08-26T09:10:02.123+05:30| vmx| I120: Msg_Reset:
+2016-08-26T09:10:02.123+05:30| vmx| I120: [msg.dictionary.load.openFailed] Cannot open file "C:\Users\ANJAN\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2016-08-26T09:10:02.123+05:30| vmx| I120: ----------------------------------------
+2016-08-26T09:10:02.123+05:30| vmx| I120: PREF Optional preferences file not found at C:\Users\ANJAN\AppData\Roaming\VMware\config.ini. Using default values.
+2016-08-26T09:10:02.123+05:30| vmx| I120: FILE: FileLockDynaLink: Further process validation tools are: available
+2016-08-26T09:10:02.373+05:30| vmx| I120: Hostname=ANJAN-PC
+2016-08-26T09:10:02.373+05:30| vmx| I120: IP=fe80::8058:2bc8:a32b:8521%40
+2016-08-26T09:10:02.373+05:30| vmx| I120: IP=fe80::d580:3404:fc7f:a6bd%43
+2016-08-26T09:10:02.373+05:30| vmx| I120: IP=fe80::41ef:a4cb:43e3:454c%48
+2016-08-26T09:10:02.373+05:30| vmx| I120: IP=fe80::7826:b25a:cb27:d012%50
+2016-08-26T09:10:02.373+05:30| vmx| I120: IP=192.168.137.1
+2016-08-26T09:10:02.373+05:30| vmx| I120: IP=192.168.0.2
+2016-08-26T09:10:02.373+05:30| vmx| I120: IP=192.168.56.12
+2016-08-26T09:10:02.373+05:30| vmx| I120: IP=192.168.99.1
+2016-08-26T09:10:02.373+05:30| vmx| I120: HOSTINFO 503531700740 @ 2434697Hz -> 0 @ 1000000000Hz
+2016-08-26T09:10:02.373+05:30| vmx| I120: HOSTINFO ((x * 3445442287) >> 23) + -206814934560611
+2016-08-26T09:10:02.404+05:30| vmx| I120: System uptime 206822107421 us
+2016-08-26T09:10:02.404+05:30| vmx| I120: Command line: "C:\Program Files\VMware\VMware Workstation\vmware-vmx.exe" "-T" "querytoken" "-s" "vmx.stdio.keep=TRUE" "-#" "product=1;name=VMware Workstation;version=8.0.1;buildnumber=528992;licensename=VMware Workstation;licenseversion=8.0+;" "-@" "pipe=\\.\pipe\vmx30a601bb10b3d35e;" "D:\DD Laptop\CCNA\Network Theater\Fortigate Firewall for Vmware\FortiGate-VM\FortiGate.vmx"
+2016-08-26T09:10:02.404+05:30| vmx| I120: Msg_SetLocaleEx: HostLocale=windows-1252 UserLocale=NULL
+2016-08-26T09:10:02.435+05:30| vmx| I120: UI Connecting to pipe '\\.\pipe\vmx30a601bb10b3d35e' with user '(null)'
+2016-08-26T09:10:02.435+05:30| vmx| I120: VMXVmdb: Local connection timeout: 60000 ms.
+2016-08-26T09:10:02.529+05:30| vmx| I120: VmdbAddConnection: cnxPath=/db/connection/#1/, cnxIx=1
+2016-08-26T09:10:02.529+05:30| vmx| I120: Vix: [5648 mainDispatch.c:483]: VMAutomation: Initializing VMAutomation.
+2016-08-26T09:10:02.529+05:30| vmx| I120: Vix: [5648 mainDispatch.c:780]: VMAutomationOpenListenerSocket() listening
+2016-08-26T09:10:02.529+05:30| vmx| I120: Vix: [5648 mainDispatch.c:4067]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2016-08-26T09:10:02.529+05:30| vmx| I120: Transitioned vmx/execState/val to poweredOff
+2016-08-26T09:10:02.529+05:30| vmx| I120: Vix: [5648 mainDispatch.c:4067]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2016-08-26T09:10:02.529+05:30| vmx| I120: Vix: [5648 mainDispatch.c:4067]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1877, success=1 additionalError=0
+2016-08-26T09:10:02.529+05:30| vmx| I120: Vix: [5648 mainDispatch.c:4067]: VMAutomation_ReportPowerOpFinished: statevar=3, newAppState=1881, success=1 additionalError=0
+2016-08-26T09:10:02.529+05:30| vmx| I120: HD: host version is 6.1.7600
+2016-08-26T09:10:02.529+05:30| vmx| I120: HD: addr 82eb5209
+2016-08-26T09:10:02.529+05:30| vmx| I120: HD: 82f6f380, 0
+2016-08-26T09:10:02.529+05:30| vmx| W110: Can't set WSS, error 1314
+2016-08-26T09:10:02.529+05:30| vmx| I120: VerificationOfHostParameters status 1
+2016-08-26T09:10:02.529+05:30| vmx| I120: VMMon_GetkHzEstimate: Calculated 2493130 kHz
+2016-08-26T09:10:02.529+05:30| vmx| I120: VMMon_RememberkHzEstimate: Calculated 2493149 kHz
+2016-08-26T09:10:02.529+05:30| vmx| I120: TSC kHz estimates: vmmon 2493130, remembered 2493149, osReported 2493000. Using 2493149 kHz.
+2016-08-26T09:10:02.529+05:30| vmx| I120: CPU # 0 TSC = 515616851720250
+2016-08-26T09:10:02.529+05:30| vmx| I120: CPU # 1 TSC = 515616851720175
+2016-08-26T09:10:02.529+05:30| vmx| I120: TSC first measured delta 75
+2016-08-26T09:10:02.529+05:30| vmx| I120: TSC min delta 50
+2016-08-26T09:10:02.529+05:30| vmx| I120: PTSC: RefClockToPTSC 0 @ 2434697Hz -> 0 @ 2493149000Hz
+2016-08-26T09:10:02.529+05:30| vmx| I120: PTSC: RefClockToPTSC ((x * 2147500248) >> 21) + -419339994626542
+2016-08-26T09:10:02.529+05:30| vmx| I120: PTSC: tscOffset -419336009019125
+2016-08-26T09:10:02.529+05:30| vmx| I120: PTSC: using TSC
+2016-08-26T09:10:02.529+05:30| vmx| I120: PTSC: hardware TSCs are synchronized.
+2016-08-26T09:10:02.529+05:30| vmx| I120: PTSC: current PTSC=96280843127750
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID vendor: GenuineIntel
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID family: 0x6 model: 0x17 stepping: 0xa
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID codename: Penryn/Harpertown (Core2)
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID name: Pentium(R) Dual-Core  CPU      E5200  @ 2.50GHz
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 00000000, 0: 0x0000000d 0x756e6547 0x6c65746e 0x49656e69
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 00000001, 0: 0x0001067a 0x00020800 0x0c00e39d 0xbfebfbff
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb4307d
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 00000004, 0: 0x04000121 0x01c0003f 0x0000003f 0x00000001
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 00000004, 1: 0x04000122 0x01c0003f 0x0000003f 0x00000001
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 00000004, 2: 0x04004143 0x01c0003f 0x00000fff 0x00000001
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00022220
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 00000006, 0: 0x00000001 0x00000002 0x00000003 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, 0: 0x00000003 0x00000240 0x00000240 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, 2: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, 5: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, 6: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, 7: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, 8: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, 9: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, a: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, b: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, c: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, d: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, e: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, f: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, 10: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, 11: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, 12: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, 13: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, 14: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, 15: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, 16: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.529+05:30| vmx| I120: hostCPUID level 0000000d, 17: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 18: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 19: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 1a: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 1b: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 1c: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 1d: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 1e: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 1f: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 20: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 21: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 22: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 23: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 24: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 25: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 26: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 27: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 28: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 29: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 2a: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 2b: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 2c: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 2d: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 2e: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 2f: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 30: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 31: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 32: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 33: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 34: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 35: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 36: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 37: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 38: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 39: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 3a: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 3b: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 3c: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 3d: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 3e: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 0000000d, 3f: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000001 0x20100000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 80000002, 0: 0x746e6550 0x286d7569 0x44202952 0x2d6c6175
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 80000003, 0: 0x65726f43 0x50432020 0x20202055 0x45202020
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 80000004, 0: 0x30303235 0x20402020 0x30352e32 0x007a4847
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 80000006, 0: 0x00000000 0x00000000 0x08006040 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: hostCPUID level 80000008, 0: 0x00003024 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:02.544+05:30| vmx| I120: CPUID differences from hostCPUID.
+2016-08-26T09:10:02.544+05:30| vmx| I120: CPUID[1] level 00000001, 0: 0x0001067a 0x01020800 0x0c00e39d 0xbfebfbff
+2016-08-26T09:10:02.544+05:30| vmx| I120: CPUID Maximum Physical Address Bits supported across all CPUs: 36
+2016-08-26T09:10:02.544+05:30| vmx| I120: VMIOP: Init started
+2016-08-26T09:10:02.544+05:30| vmx| I120: MACWireless: registered wireless module "emulated"
+2016-08-26T09:10:02.857+05:30| vmx| I120: ConfigCheck: No rules file found. Checks are disabled.
+2016-08-26T09:10:02.857+05:30| vmx| I120: changing directory to D:\DD Laptop\CCNA\Network Theater\Fortigate Firewall for Vmware\FortiGate-VM\.
+2016-08-26T09:10:02.857+05:30| vmx| I120: Config file: D:\DD Laptop\CCNA\Network Theater\Fortigate Firewall for Vmware\FortiGate-VM\FortiGate.vmx
+2016-08-26T09:10:02.857+05:30| vmx| I120: Vix: [5648 mainDispatch.c:4067]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2016-08-26T09:10:02.857+05:30| vmx| I120: Vix: [5648 mainDispatch.c:4067]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1878, success=1 additionalError=0
+2016-08-26T09:10:02.888+05:30| vmx| I120: VMXVmdbCbVmVmxExecState: Exec state change requested to state poweredOn without reset, hard, softOptionTimeout: 0.
+2016-08-26T09:10:02.888+05:30| vmx| W110: PowerOn
+2016-08-26T09:10:02.888+05:30| vmx| I120: VMX_PowerOn: VMX build 528992, UI build 528992
+2016-08-26T09:10:02.888+05:30| vmx| I120: HostWin32: WIN32 NUMA node 0, CPU mask 0x0000000000000003
+2016-08-26T09:10:02.904+05:30| vmx| I120: Vix: [5648 mainDispatch.c:4067]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1871, success=1 additionalError=0
+2016-08-26T09:10:02.904+05:30| vmx| I120: HOST Windows version 6.1, build 7600, platform 2, "", SMP
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT --- USER PREFERENCES C:\Users\ANJAN\AppData\Roaming\VMware\preferences.ini 
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT       pref.eula.0.appName = VMware Workstation
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT   pref.eula.0.buildNumber = 528992
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT     pref.trayicon.enabled = true
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT       pref.usbDev.maxDevs = 0
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT pref.keyboardAndMouse.maxProfiles = 0
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT        pref.hostMRU.count = 1
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT        pref.hostMRU0.name = localhost
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT pref.ws.session.window.count = 1
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT pref.ws.session.window0.tab.count = 1
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT pref.ws.session.window0.sidebar = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT pref.ws.session.window0.sidebar.width = 235
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT pref.ws.session.window0.statusBar = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT pref.ws.session.window0.tabs = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT pref.ws.session.window0.thumbnailBar = FALSE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT pref.ws.session.window0.thumbnailBar.size = 100
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT pref.ws.session.window0.thumbnailBar.view = opened-vms
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT pref.ws.session.window0.placement.left = 100
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT pref.ws.session.window0.placement.top = 100
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT pref.ws.session.window0.placement.right = 1040
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT pref.ws.session.window0.placement.bottom = 654
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT pref.ws.session.window0.maximized = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT vmWizard.mruISO0.isoLocation = D:\DD Laptop\Checkpoint & Load Balancer\Checkpoint\Checkpoint for Vmware\Check_Point_Install_and_Upgrade_R76.Gaia.iso
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT vmWizard.installMediaType = iso
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT         vmWizard.guestKey = rhel5
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT       pref.eula.1.appName = VMware Player
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT   pref.eula.1.buildNumber = 528992
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT vmWizard.mruISO1.isoLocation = D:\DD Laptop\Checkpoint & Load Balancer\F5 Load Balancer\BIGIP-11.3.0.39.0-scsi.ova
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT vmWizard.mruISO2.isoLocation = E:\downloads\Unified Networking Lab.ova
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT pref.ws.session.window0.tab0.dest = 
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT pref.ws.session.window0.tab0.file = 
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT pref.ws.session.window0.tab0.type = home
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT pref.ws.session.window0.tab0.focused = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT vmWizard.lastPowerOnValue = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT vmWizard.mruISO3.isoLocation = E:\Exempted\vMX\jinstall-vmx-14.1R1.10-domestic.img
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT vmWizard.mruISO4.isoLocation = D:\DD Laptop\CCNA\Network Theater\Nexus1000v.5.2.1.SK3.2.2b-pkg\Nexus1000v.5.2.1.SK3.2.2b\Nexus1000v.5.2.1.SK3.2.2b\VSM\n1000v-dk9.5.2.1.SK3.2.2b.iso
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT vmWizard.mruISO5.isoLocation = D:\DD Laptop\CCNA\Network Theater\Cisco IOS\C3725.bin
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT vmWizard.mruISO6.isoLocation = D:\DD Laptop\CCNA\Network Theater\Cisco IOS\c2600-adventerprisek9-mz.124-25c.image
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT vmWizard.mruISO7.isoLocation = D:\DD Laptop\CCNA\Network Theater\Zen_Load Balancer\zenloadbalancer-distro_3.10.iso
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT vmWizard.mruISO8.isoLocation = D:\DD Laptop\CCNA\Network Theater\Linux GUI OS for Vmware\dsl-4.11.rc1.iso
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT vmWizard.mruISO9.isoLocation = D:\DD Laptop\CCNA\Network Theater\Checkpoint for Vmware\Check_Point_Install_and_Upgrade_R76.Gaia.iso
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT      pref.mruVM0.filename = C:\Users\ANJAN\Documents\Virtual Machines\Unified Networking Lab\Unified Networking Lab.vmx
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT   pref.mruVM0.displayname = Unified Networking Lab
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT      pref.mruVM1.filename = C:\Users\ANJAN\Documents\Virtual Machines\UniLAB\UniLAB.vmx
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT   pref.mruVM1.displayname = UniLAB
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT --- USER DEFAULTS C:\Users\ANJAN\AppData\Roaming\VMware\config.ini 
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT         authd.client.port = 902
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT           authd.proxy.vim = vmware-hostd:hostd-vmdb
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT           authd.proxy.nfc = vmware-hostd:ha-nfc
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT installerDefaults.autoSoftwareUpdateEnabled = no
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT installerDefaults.componentDownloadEnabled = yes
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT installerDefaults.dataCollectionEnabled = yes
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT         authd.client.port = 902
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT           authd.proxy.vim = vmware-hostd:hostd-vmdb
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT           authd.proxy.nfc = vmware-hostd:ha-nfc
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT installerDefaults.autoSoftwareUpdateEnabled = no
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT installerDefaults.componentDownloadEnabled = yes
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT installerDefaults.dataCollectionEnabled = yes
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT --- NONPERSISTENT
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT            vmx.stdio.keep = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT             gui.available = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT --- COMMAND LINE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT            vmx.stdio.keep = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT             gui.available = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT --- RECORDING
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT            vmx.stdio.keep = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT             gui.available = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT --- CONFIGURATION D:\DD Laptop\CCNA\Network Theater\Fortigate Firewall for Vmware\FortiGate-VM\FortiGate.vmx 
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT               displayname = FortiGate
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT                annotation = FortiGate Virtual Appliance by Fortinet Technologies Inc. (http://www.fortinet.com)
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT                   guestos = other
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT         virtualhw.version = 7
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT            config.version = 8
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT                  numvcpus = 1
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT      cpuid.coresPerSocket = 1
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT                   memsize = 256
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT           svga.autodetect = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT        pciBridge0.present = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT              mks.enable3d = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT        pciBridge4.present = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT     pciBridge4.virtualDev = pcieRootPort
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT      pciBridge4.functions = 8
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT        pciBridge5.present = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT     pciBridge5.virtualDev = pcieRootPort
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT      pciBridge5.functions = 8
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT        pciBridge6.present = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT     pciBridge6.virtualDev = pcieRootPort
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT      pciBridge6.functions = 8
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT        pciBridge7.present = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT     pciBridge7.virtualDev = pcieRootPort
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT      pciBridge7.functions = 8
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT             vmci0.present = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT           scsi0:0.present = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT        scsi0:0.deviceType = disk
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT          scsi0:0.fileName = FortiGate-disk1.vmdk
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT           scsi0:1.present = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT        scsi0:1.deviceType = disk
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT          scsi0:1.fileName = FortiGate-disk2.vmdk
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT          scsi0.virtualDev = lsilogic
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT             scsi0.present = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT         ethernet0.present = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT      ethernet0.virtualDev = e1000
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT  ethernet0.connectionType = custom
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT  ethernet0.startConnected = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT     ethernet0.addressType = generated
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT         ethernet1.present = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT      ethernet1.virtualDev = e1000
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT  ethernet1.connectionType = custom
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT  ethernet1.startConnected = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT     ethernet1.addressType = generated
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT         ethernet2.present = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT      ethernet2.virtualDev = e1000
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT  ethernet2.connectionType = custom
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT  ethernet2.startConnected = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT     ethernet2.addressType = generated
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT        extendedConfigFile = FortiGate.vmxf
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT virtualHW.productCompatibility = hosted
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT ethernet0.generatedAddress = 00:0c:29:7e:32:30
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT ethernet1.generatedAddress = 00:0c:29:7e:32:3a
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT ethernet2.generatedAddress = 00:0c:29:7e:32:44
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT                  vmci0.id = 1413931938
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT             uuid.location = 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT                 uuid.bios = 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT             cleanShutdown = TRUE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT          replay.supported = FALSE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT           replay.filename = 
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT              scsi0:0.redo = 
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT              scsi0:1.redo = 
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT  pciBridge0.pciSlotNumber = 17
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT  pciBridge4.pciSlotNumber = 21
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT  pciBridge5.pciSlotNumber = 22
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT  pciBridge6.pciSlotNumber = 23
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT  pciBridge7.pciSlotNumber = 24
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT       scsi0.pciSlotNumber = 16
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT   ethernet0.pciSlotNumber = 32
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT   ethernet1.pciSlotNumber = 33
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT   ethernet2.pciSlotNumber = 34
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT       vmci0.pciSlotNumber = 42
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT ethernet0.generatedAddressOffset = 0
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT ethernet1.generatedAddressOffset = 10
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT ethernet2.generatedAddressOffset = 20
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT  vmotion.checkpointFBSize = 134217728
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT            ethernet0.vnet = VMnet0
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT            ethernet1.vnet = VMnet1
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT            ethernet2.vnet = VMnet8
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT         ethernet3.present = FALSE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT         ethernet4.present = FALSE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT         ethernet5.present = FALSE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT         ethernet6.present = FALSE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT         ethernet7.present = FALSE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT         ethernet8.present = FALSE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT         ethernet9.present = FALSE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT           floppy0.present = FALSE
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT        checkpoint.vmState = 
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT --- USER DEFAULTS C:\Users\ANJAN\AppData\Roaming\VMware\config.ini 
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT         authd.client.port = 902
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT           authd.proxy.vim = vmware-hostd:hostd-vmdb
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT           authd.proxy.nfc = vmware-hostd:ha-nfc
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT installerDefaults.autoSoftwareUpdateEnabled = no
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT installerDefaults.componentDownloadEnabled = yes
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT installerDefaults.dataCollectionEnabled = yes
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT         authd.client.port = 902
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT           authd.proxy.vim = vmware-hostd:hostd-vmdb
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT           authd.proxy.nfc = vmware-hostd:ha-nfc
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT installerDefaults.autoSoftwareUpdateEnabled = no
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT installerDefaults.componentDownloadEnabled = yes
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT installerDefaults.dataCollectionEnabled = yes
+2016-08-26T09:10:02.904+05:30| vmx| I120: DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini 
+2016-08-26T09:10:02.904+05:30| vmx| I120: Vix: [5648 mainDispatch.c:4067]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2016-08-26T09:10:02.904+05:30| vmx| I120: hostCpuFeatures = 0x406001fc
+2016-08-26T09:10:02.904+05:30| vmx| I120: hostNumGenPerfCounters = 2
+2016-08-26T09:10:02.904+05:30| vmx| I120: hostNumFixedPerfCounters = 3
+2016-08-26T09:10:02.904+05:30| vmx| I120: CPU0: PMC: bad VMENTRY_CTL_LOAD_CPGC or VMEXIT_CTL_LOAD_CPGC
+2016-08-26T09:10:02.904+05:30| vmx| I120: PMC: Patch Level 0xa07, smmFrz (hw): (1)
+2016-08-26T09:10:02.904+05:30| vmx| I120: PMC: IA32, Penryn [c:0 f:1 e:0]
+2016-08-26T09:10:02.904+05:30| vmx| I120: CPU1: PMC: bad VMENTRY_CTL_LOAD_CPGC or VMEXIT_CTL_LOAD_CPGC
+2016-08-26T09:10:02.904+05:30| vmx| I120: PMC: Patch Level 0xa07, smmFrz (hw): (1)
+2016-08-26T09:10:02.904+05:30| vmx| I120: PMC: IA32, Penryn [c:0 f:1 e:0]
+2016-08-26T09:10:02.904+05:30| vmx| I120: MONITOR MODE: allowed modes          : BT
+2016-08-26T09:10:02.904+05:30| vmx| I120: MONITOR MODE: user requested modes   : BT HV HWMMU
+2016-08-26T09:10:02.904+05:30| vmx| I120: MONITOR MODE: guestOS preferred modes: HWMMU HV BT
+2016-08-26T09:10:02.904+05:30| vmx| I120: MONITOR MODE: filtered list          : BT
+2016-08-26T09:10:02.904+05:30| vmx| I120: MsgHint: msg.monitor.BTnoLM
+2016-08-26T09:10:02.904+05:30| vmx| I120+ Software virtualization is incompatible with long mode on this platform. Disabling long mode. Without long mode support, the virtual machine will not be able to run 64 bit code. For more details see http://vmware.com/info?id=152.
+2016-08-26T09:10:02.904+05:30| vmx| I120+ ---------------------------------------
+2016-08-26T09:10:05.044+05:30| vmx| I120: HV Settings: virtual exec = 'software'; virtual mmu = 'software'
+2016-08-26T09:10:05.060+05:30| vmx| I120: SVGA: Maximum display topology 3840x1920.
+2016-08-26T09:10:05.060+05:30| vmx| I120: WSSCAN: reserved mem (in MB) min=128 max=1509 recommended=1509
+2016-08-26T09:10:05.060+05:30| vmx| I120: WSSCAN: used rec mem (in MB) 1509
+2016-08-26T09:10:05.060+05:30| vmx| I120: PShare: enabled 1 adaptive 1 scanRate [16, 400]
+2016-08-26T09:10:05.060+05:30| vmx| I120: WSSCAN: 98985 8161 65536 32768
+2016-08-26T09:10:05.076+05:30| vmx| I120: WSSCAN 1 0 378112 434527 386304 399316 50 0
+2016-08-26T09:10:05.076+05:30| vmx| W110: NUMA: automatic VM sizing request ignored
+2016-08-26T09:10:05.076+05:30| WinNotifyThread| I120: VTHREAD start thread 4 "WinNotifyThread" host id 5704
+2016-08-26T09:10:05.076+05:30| WinNotifyThread| I120: WinNotify thread is alive
+2016-08-26T09:10:05.076+05:30| vmx| I120: hread 5704 3156LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\Dormant\License.ws.8.0.e1.201010' 
+2016-08-26T09:10:05.076+05:30| vmx| I120: Host IPI vectors: 0xe1 0.  Monitor IPI vector: 0
+2016-08-26T09:10:05.076+05:30| vmx| I120: Monitor_PowerOn: HostedVSMP skew tracking is disabled
+2016-08-26T09:10:05.076+05:30| vmx| I120: Monitor64_PowerOn()
+2016-08-26T09:10:05.076+05:30| vmx| I120: Loaded worldswitch: .wsBody32.  Size = 800.
+2016-08-26T09:10:05.076+05:30| vmx| I120: Successfully loaded worldswitch fault handlers from .switchNMI.  Size = 240.
+2016-08-26T09:10:05.076+05:30| vmx| I120: vmm64-modules: [vmm.vmm64 .data:0xfffffffffc056000-0xdb8 .shared_per_vm:0xfffffffffc057000-0x1dbc0 .shared_per_vcpu_vmx:0xfffffffffc077000-0x1dd9 .shared_vmm_vmk:0xfffffffffc079000-0x700 .shared_inter_vcpu_vmk:0xfffffffffc07b000-0x1c0 .shared_inter_vcpu_vmx:0xfffffffffc07c000-0x1880 .bss:0xfffffffffc07e000-0x13e44 .rodata:0xfffffffffc200000-0x199ed .text:0xfffffffffc21a000-0x81abd .eh_frame:0xfffffffffc2aa000-0x1b58 .statvars:0x1000-0x0, mmu-nohv.vmm64 .rodata:0xfffffffffc219a00-0x116 .data:0xfffffffffc056db8-0x4 .shared_per_vm:0xfffffffffc074bc0-0x2c0 .shared_per_vcpu_vmx:0x3000-0x0 .shared_vmm_vmk:0x3000-0x0 .shared_inter_vcpu_vmk:0xfffffffffc07b1c0-0x40 .shared_inter_vcpu_vmx:0x4000-0x0 .bss:0xfffffffffc091e60-0x1e54 .text:0xfffffffffc29bac0-0xb93a .comment:0xcf0-0x10e .patchtext:0x540-0x90 .statvars:0x2000-0x0 .shared_per_vm_meta:0x2850-0x1b0 .shared_inter_vcpu_vmk_meta:0xf0-0x30, vprobe-none.vmm64 .data:0xfffffffffc056dc0-0x8 .shared_per_vm:0x1000-0x0 .shared_per_vcpu_vmx:0x1000-0x0 .shared_vmm_vmk:0x1000-0x0 .shared_inter_vcpu_vmk:0x1000-0x0 .shared_inter_vcpu_vmx:0x1000-0x0 .bss:0xfffffffffc093cc0-0x88 .text:0xfffffffffc2a73fc-0x26 .comment:0xdfe-0x12 .statvars:0x1000-0x0, hv-none.vmm64 .rodata:0xfffffffffc219b18-0x4 .data:0x1000-0x0 .shared_per_vm:0xfffffffffc074e80-0x40 .shared_per_vcpu_vmx:0x2000-0x0 .shared_vmm_vmk:0x2000-0x0 .shared_inter_vcpu_vmk:0x2000-0x0 .shared_inter_vcpu_vmx:0xfffffffffc07d880-0x40 .bss:0xfffffffffc093d48-0x6 .text:0xfffffffffc2a7424-0x2bb .comment:0xe10-0x6c .statvars:0x1000-0x0 .shared_per_vm_meta:0x2a00-0x60 .shared_inter_vcpu_vmx_meta:0x180-0x30, gphys-sw.vmm64 .rodata:0xfffffffffc219b20-0x28 .data:0x1000-0x0 .shared_per_vm:0xfffffffffc074ec0-0xc0 .shared_per_vcpu_vmx:0x2000-0x0 .shared_vmm_vmk:0x2000-0x0 .shared_inter_vcpu_vmk:0x2000-0x0 .shared_inter_vcpu_vmx:0x2000-0x0 .bss:0xfffffffffc093d50-0x60 .text:0xfffffffffc2a76e0-0x2808 .patchtext:0x5d0-0x20 .comment:0xe7c-0x12 .statvars:0x1000-0x0 .shared_per_vm_meta:0x2a60-0x330, vmsafe-none.vmm64 .shared_per_vm:0xfffffffffc074f80-0x40 .shared_per_vcpu_vmx:0x1000-0x0 .shared_vmm_vmk:0x1000-0x0 .shared_inter_vcpu_vmk:0x1000-0x0 .shared_inter_vcpu_vmx:0x1000-0x0 .bss:0x1000-0x0 .text:0xfffffffffc2a9ee8-0x1b .comment:0xe8e-0x12 .shared_per_vm_meta:0x2d90-0x30, callstack-none.vmm64 .text:0xfffffffffc2a9f04-0x2 .comment:0xea0-0x12 .scb:0x1980-0x60, vmce-none.vmm64 .text:0xfffffffffc2a9f08-0x3d .comment:0xeb2-0x12, {SharedInterVcpuVmxSection} .shared_per_vm:0xfffffffffc075000-0x2000, {SharedInterVcpuVmkSection} .shared_vmm_vmk:0xfffffffffc07a000-0x1000, <MonSrcFile> .rodata:0xfffffffffc219b48-0x3f4]
+2016-08-26T09:10:05.076+05:30| vmx| I120: vmm64-vcpus:  1
+2016-08-26T09:10:05.091+05:30| vmx| I120: KHZEstimate 2493149
+2016-08-26T09:10:05.091+05:30| vmx| I120: MHZEstimate 2493
+2016-08-26T09:10:05.091+05:30| vmx| I120: NumVCPUs 1
+2016-08-26T09:10:05.091+05:30| vmx| I120: Guest OS (20504) not supported for replay debugging.
+2016-08-26T09:10:05.091+05:30| vmx| I120: BusMemServices: page checkRate 16
+2016-08-26T09:10:05.091+05:30| vmx| I120: UUID: location-UUID is 56 4d ae 80 0d 3e 1c fc-c6 cd f2 f9 d0 58 9b 6b
+2016-08-26T09:10:05.091+05:30| vmx| I120: UUID: location-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:10:05.091+05:30| vmx| I120: UUID: location-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:10:05.091+05:30| vthread-5| I120: VTHREAD start thread 5 "vthread-5" host id 3580
+2016-08-26T09:10:05.091+05:30| vmx| I120: hread 3580 3156AIOGNRC: numThreads=25 ide=0, scsi=2, passthru=0
+2016-08-26T09:10:05.091+05:30| vmx| I120: WORKER: Creating new group with numThreads=25 (25)
+2016-08-26T09:10:05.123+05:30| vmx| I120: StateLogger::Replay State = 0
+2016-08-26T09:10:05.123+05:30| vmx| I120: StateLogger::minDEThreshold: 85
+2016-08-26T09:10:05.154+05:30| vmx| I120: WORKER: Creating new group with numThreads=1 (26)
+2016-08-26T09:10:05.154+05:30| vmx| I120: MainMem: CPT Host WZ=0 SOR=1 PF=256
+2016-08-26T09:10:05.154+05:30| vmx| I120: MainMem: CPT PLS=1 PLR=1 BS=1 BufM=256 BlkP=32 Mult=4 W=50
+2016-08-26T09:10:05.154+05:30| vmx| I120: UUID: location-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:10:05.154+05:30| vmx| I120: MainMem: Opened paging file, 'D:\DD Laptop\CCNA\Network Theater\Fortigate Firewall for Vmware\FortiGate-VM\564d07a1-370f-d08f-f86a-abdc437e3230.vmem'.
+2016-08-26T09:10:05.154+05:30| vmx| I120: MStat: Creating Stat vm.uptime
+2016-08-26T09:10:05.154+05:30| vmx| I120: MStat: Creating Stat vm.suspendTime
+2016-08-26T09:10:05.154+05:30| vmx| I120: MStat: Creating Stat vm.powerOnTimeStamp
+2016-08-26T09:10:05.154+05:30| aioCompletion| I120: VTHREAD start thread 6 "aioCompletion" host id 3336
+2016-08-26T09:10:05.154+05:30| vmx| I120: hread 3336 3156VMXAIOMGR: Using: simple=Generic unbuf=Compl
+2016-08-26T09:10:05.169+05:30| vmx| I120: WORKER: Creating new group with numThreads=1 (27)
+2016-08-26T09:10:05.185+05:30| vmx| I120: DISK: OPEN scsi0:0 'D:\DD Laptop\CCNA\Network Theater\Fortigate Firewall for Vmware\FortiGate-VM\FortiGate-disk1.vmdk' persistent R[]
+2016-08-26T09:10:05.216+05:30| vmx| I120: DISKLIB-DSCPTR: Opened [0]: "FortiGate-disk1.vmdk" (0xa)
+2016-08-26T09:10:05.216+05:30| vmx| I120: DISKLIB-LINK  : Opened 'D:\DD Laptop\CCNA\Network Theater\Fortigate Firewall for Vmware\FortiGate-VM\FortiGate-disk1.vmdk' (0xa): monolithicSparse, 4194304 sectors / 2 GB.
+2016-08-26T09:10:05.216+05:30| vmx| I120: DISKLIB-LIB   : Opened "D:\DD Laptop\CCNA\Network Theater\Fortigate Firewall for Vmware\FortiGate-VM\FortiGate-disk1.vmdk" (flags 0xa, type monolithicSparse).
+2016-08-26T09:10:05.216+05:30| vmx| I120: DiskGetGeometry: Reading of disk partition table
+2016-08-26T09:10:05.216+05:30| vmx| I120: DISK: Disk 'D:\DD Laptop\CCNA\Network Theater\Fortigate Firewall for Vmware\FortiGate-VM\FortiGate-disk1.vmdk' has UUID '60 00 c2 92 d1 3a fa 7c-0d 05 c3 ee 4b 0b 7d fe'
+2016-08-26T09:10:05.216+05:30| vmx| I120: DISK: OPEN 'D:\DD Laptop\CCNA\Network Theater\Fortigate Firewall for Vmware\FortiGate-VM\FortiGate-disk1.vmdk' Geo (261/255/63) BIOS Geo (0/0/0)
+2016-08-26T09:10:05.248+05:30| vmx| I120: DISK: OPEN scsi0:1 'D:\DD Laptop\CCNA\Network Theater\Fortigate Firewall for Vmware\FortiGate-VM\FortiGate-disk2.vmdk' persistent R[]
+2016-08-26T09:10:05.357+05:30| vmx| I120: DISKLIB-DSCPTR: Opened [0]: "FortiGate-disk2.vmdk" (0xa)
+2016-08-26T09:10:05.357+05:30| vmx| I120: DISKLIB-LINK  : Opened 'D:\DD Laptop\CCNA\Network Theater\Fortigate Firewall for Vmware\FortiGate-VM\FortiGate-disk2.vmdk' (0xa): monolithicSparse, 62914560 sectors / 30 GB.
+2016-08-26T09:10:05.357+05:30| vmx| I120: DISKLIB-LIB   : Opened "D:\DD Laptop\CCNA\Network Theater\Fortigate Firewall for Vmware\FortiGate-VM\FortiGate-disk2.vmdk" (flags 0xa, type monolithicSparse).
+2016-08-26T09:10:05.357+05:30| vmx| I120: DiskGetGeometry: Reading of disk partition table
+2016-08-26T09:10:05.357+05:30| vmx| I120: DISK: Disk 'D:\DD Laptop\CCNA\Network Theater\Fortigate Firewall for Vmware\FortiGate-VM\FortiGate-disk2.vmdk' has UUID '60 00 c2 9f 25 db f2 c8-5f 85 64 68 68 b0 32 7a'
+2016-08-26T09:10:05.357+05:30| vmx| I120: DISK: OPEN 'D:\DD Laptop\CCNA\Network Theater\Fortigate Firewall for Vmware\FortiGate-VM\FortiGate-disk2.vmdk' Geo (3916/255/63) BIOS Geo (0/0/0)
+2016-08-26T09:10:05.419+05:30| vmx| I120: TimeTracker host to guest rate conversion 96288034306600 @ 2493149000Hz -> 96288034306600 @ 2493149000Hz
+2016-08-26T09:10:05.419+05:30| vmx| I120: TimeTracker host to guest rate conversion ((x * 2147483648) >> 31) + 0
+2016-08-26T09:10:05.419+05:30| vmx| I120: timeTracker.globalProgressMaxAllowanceMS: 2000
+2016-08-26T09:10:05.419+05:30| vmx| I120: timeTracker.globalProgressToAllowanceNS: 1000
+2016-08-26T09:10:05.419+05:30| vmx| W110: VUsb powered on, but no USB controllers.
+2016-08-26T09:10:05.419+05:30| vmx| I120: SVGA: Maximum display topology 3840x1920.
+2016-08-26T09:10:05.419+05:30| mouse| I120: VTHREAD start thread 7 "mouse" host id 5720
+2016-08-26T09:10:05.419+05:30| vmx| I120: hread 5720 3156VTHREAD start thread 8 "kbh" host id 5728
+2016-08-26T09:10:05.419+05:30| vmx| I120: hread 5728 3156Failed to load D3DX9 library.
+2016-08-26T09:10:05.435+05:30| vmx| I120: WORKER: Creating new group with numThreads=1 (27)
+2016-08-26T09:10:05.435+05:30| vmx| I120: MKS: Base polling period is 1000000us
+2016-08-26T09:10:05.435+05:30| vmx| I120: KHBKL: Unable to parse keystring at: ''
+2016-08-26T09:10:05.435+05:30| vmx| I120: MKS REMOTE Loading VNC Configuration from VM config file
+2016-08-26T09:10:05.435+05:30| vmx| I120: VLANCE: send cluster threshold is 80, size = 2 recalcInterval is 2 ticks
+2016-08-26T09:10:05.435+05:30| vmx| I120: VMXNET: send cluster threshold is 80, size = 2 recalcInterval is 2 ticks, dontClusterSize is 128
+2016-08-26T09:10:05.435+05:30| vmx| I120: NetPkt: checksum cycles/kB: C=40 asm1=651 asm2=607
+2016-08-26T09:10:05.435+05:30| vmx| I120: NetPkt: copy and sum cycles/kB: C=1386 asm1=634 asm2=618
+2016-08-26T09:10:05.435+05:30| vmx| I120: Chipset version: 0x13
+2016-08-26T09:10:05.466+05:30| vmx| I120: SCSI: scsi0: intr coalescing: on period=50msec cifTh=4 iopsTh=2000 hlt=0
+2016-08-26T09:10:05.466+05:30| vmx| I120: SCSI0: UNTAGGED commands will be converted to ORDER tags.
+2016-08-26T09:10:05.466+05:30| vmx| I120: SCSI DEVICE (scsi0:0): Computed value of scsi0:0.useBounceBuffers: always
+2016-08-26T09:10:05.466+05:30| vmx| I120: DISKUTIL: scsi0:0 : capacity=4194304
+2016-08-26T09:10:05.466+05:30| vmx| I120: DISKUTIL: scsi0:0 : geometry=261/255/63
+2016-08-26T09:10:05.466+05:30| vmx| I120: SCSI DEVICE (scsi0:1): Computed value of scsi0:1.useBounceBuffers: always
+2016-08-26T09:10:05.466+05:30| vmx| I120: DISKUTIL: scsi0:1 : capacity=62914560
+2016-08-26T09:10:05.466+05:30| vmx| I120: DISKUTIL: scsi0:1 : geometry=3916/255/63
+2016-08-26T09:10:05.466+05:30| vmx| I120: SVGA: Device capabilities 0x001fc3e2
+2016-08-26T09:10:05.466+05:30| vmx| I120: SVGA: Maximum display topology 3840x1920.
+2016-08-26T09:10:05.466+05:30| vmx| I120: SVGA: Maximum display topology 3840x1920 with 2 displays.
+2016-08-26T09:10:05.466+05:30| vmx| I120: SVGA: FIFO capabilities 0x0000007f
+2016-08-26T09:10:05.466+05:30| vmx| I120: Ethernet0 MAC Address: 00:0c:29:7e:32:30
+2016-08-26T09:10:05.466+05:30| vmx| I120: Ethernet1 MAC Address: 00:0c:29:7e:32:3a
+2016-08-26T09:10:05.466+05:30| vmx| I120: Ethernet2 MAC Address: 00:0c:29:7e:32:44
+2016-08-26T09:10:05.498+05:30| vmx| I120: Whitelist PMC Umask/Event: 0x003c
+2016-08-26T09:10:05.498+05:30| vmx| I120: Whitelist PMC Umask/Event: 0x00c0
+2016-08-26T09:10:05.498+05:30| vmx| I120: Whitelist PMC Umask/Event: 0x013c
+2016-08-26T09:10:05.498+05:30| vmx| I120: Whitelist PMC Umask/Event: 0x4f2e
+2016-08-26T09:10:05.498+05:30| vmx| I120: Whitelist PMC Umask/Event: 0x412e
+2016-08-26T09:10:05.498+05:30| vmx| I120: Whitelist PMC Umask/Event: 0x00c4
+2016-08-26T09:10:05.498+05:30| vmx| I120: Whitelist PMC Umask/Event: 0x00c5
+2016-08-26T09:10:05.498+05:30| vmx| I120: MStat: Creating Stat vm.heartbeat
+2016-08-26T09:10:05.498+05:30| vmx| I120: VMXVmdbGuest_GetToolsVersion did nothing; tools version has not yet been initialized
+2016-08-26T09:10:05.498+05:30| vmx| I120: DISKUTIL: (null) : max toolsVersion = 0
+2016-08-26T09:10:05.498+05:30| vmx| I120: DISKUTIL: Offline toolsVersion = 0
+2016-08-26T09:10:05.498+05:30| vmx| I120: VMXVmdbGuest_GetToolsVersion did nothing; tools version has not yet been initialized
+2016-08-26T09:10:05.498+05:30| vmx| I120: TOOLS setting legacy tools version to '0', manifest status is 9
+2016-08-26T09:10:05.498+05:30| vmx| I120: VMXVmdb_SetToolsVersionState: status value set to 'notAvailable'
+2016-08-26T09:10:05.498+05:30| vmx| I120: VMXVmdb_SetToolsVersionState: status value set to 'notAvailable'
+2016-08-26T09:10:05.498+05:30| vmx| I120: TOOLS INSTALL initializing state to IDLE on power on.
+2016-08-26T09:10:05.498+05:30| vmx| I120: guestCpuFeatures = 0x402001f8
+2016-08-26T09:10:05.498+05:30| vmx| I120: Guest CPUID differences from hostCPUID.
+2016-08-26T09:10:05.498+05:30| vmx| I120: guestCPUID level 00000001, 0: 0x0001067a 0x00010800 0x80000201 0x0febfbff
+2016-08-26T09:10:05.498+05:30| vmx| I120: guestCPUID level 00000004, 0: 0x00000121 0x01c0003f 0x0000003f 0x00000001
+2016-08-26T09:10:05.498+05:30| vmx| I120: guestCPUID level 00000004, 1: 0x00000122 0x01c0003f 0x0000003f 0x00000001
+2016-08-26T09:10:05.498+05:30| vmx| I120: guestCPUID level 00000004, 2: 0x00000143 0x01c0003f 0x00000fff 0x00000001
+2016-08-26T09:10:05.498+05:30| vmx| I120: guestCPUID level 00000005, 0: 0x00001000 0x00001000 0x00000003 0x00022220
+2016-08-26T09:10:05.498+05:30| vmx| I120: guestCPUID level 0000000b, 0: 0x00000000 0x00000001 0x00000100 0x00000000
+2016-08-26T09:10:05.498+05:30| vmx| I120: guestCPUID level 0000000b, 1: 0x00000000 0x00000001 0x00000201 0x00000000
+2016-08-26T09:10:05.498+05:30| vmx| I120: guestCPUID level 0000000d, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:05.498+05:30| vmx| I120: guestCPUID level 40000000, 0: 0x40000010 0x61774d56 0x4d566572 0x65726177
+2016-08-26T09:10:05.498+05:30| vmx| I120: guestCPUID level 40000010, 0: 0x00260add 0x000101d0 0x00000000 0x00000000
+2016-08-26T09:10:05.498+05:30| vmx| I120: guestCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000000 0x00100000
+2016-08-26T09:10:05.498+05:30| vmx| I120: guestCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000100
+2016-08-26T09:10:05.498+05:30| vmx| I120: guestCPUID level 80000008, 0: 0x00003028 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:05.498+05:30| vmx| I120: guestCPUID level 8000000a, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2016-08-26T09:10:05.498+05:30| vmx| I120: CPUID control desired.
+2016-08-26T09:10:05.529+05:30| vmx| I120: BusMemSampleSetUpStats: touched: initPct 75 pages 49152 : dirtied: initPct 75 pages 49152
+2016-08-26T09:10:05.529+05:30| vmx| I120: TOOLS received request in VMX to set option 'enableDnD' -> '1'
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem_PowerOn: lib/overheadmem:   paged    99371 nonpaged    13013 anonymous        0
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem_PowerOn: initial admission: paged    98985 nonpaged     8161 anonymous        0
+2016-08-26T09:10:05.529+05:30| vmx| I120: VMMEM: Initial Reservation: 32MB (MainMem=256MB SVGA=130MB)
+2016-08-26T09:10:05.529+05:30| vmx| I120: 
+2016-08-26T09:10:05.529+05:30| vmx| I120+ OvhdMem: Static Overheads
+2016-08-26T09:10:05.529+05:30| vmx| I120: 
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem: Vmx overhead                              reserved    category (type)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VgaShadowFB                    :      512     excluded (malloc)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VmxAllocTrack                  :        0     excluded (malloc)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VmxCallStackProf               :        0     excluded (malloc)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VmxGlobals                     :    10240     excluded (static)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VmxGlobalsLibs                 :     2560     excluded (static)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VmxHeap                        :     5120     excluded (malloc)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VmxMainMemCheck                :        0     excluded (malloc)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VmxMks3d                       :        0     excluded (malloc)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VmxMksShadowFB                 :    32768     excluded (malloc)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VmxPhysMemRingBuf              :        0     excluded (malloc)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VmxReplayCheck                 :        0     excluded (malloc)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VmxSLEntryBuf                  :      128     excluded (malloc)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VmxText                        :     3328     excluded (text)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VmxTextLibs                    :    15360     excluded (text)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VmxThreadMks                   :      512     excluded (static)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VmxThreadVmx                   :      512     excluded (static)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VmxThreadsVcpu                 :      256     excluded (static)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VmxThreadsWorker               :    16384     excluded (static)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem Total                                   :    87680
+2016-08-26T09:10:05.529+05:30| vmx| I120: 
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem: Vmm overhead                              reserved    category (type)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_SharedArea                     :       89     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_TraceBitmapMainMem             :        2     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_KSTATS_vmm                     :        0     excluded (malloc)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_STATS_vmm                      :        2     excluded (malloc)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_KSTATS_device                  :        0     excluded (malloc)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_STATS_device                   :        1     excluded (malloc)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_KSTATS_migrate                 :        0     excluded (malloc)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_PFrame                         :      334     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VProbe                         :        0     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_DFStackvcpu                    :        1     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_DFCR3vcpu                      :        3     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_DFCR3PTvcpu                    :        1     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_DFCR3PageDirForSwitchPg        :        1     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VIDE_KSEG                      :       16     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VGA                            :       64     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_BusMemRemap                    :        0     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_PShareMPN                      :        6     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_P2MUpdateMPN                   :        1     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_P2MUpdateBuffer                :        3     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_SharedMPNsPool                 :       20     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_SwapMPN                        :        1     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VMCIMPN                        :        1     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_LocalApic                      :        1     paged (guest)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_BusError                       :        1     paged (guest)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VBIOS                          :        8     paged (guest)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VnicGuest                      :        0     paged (guest)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VnicMmap                       :        0     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_LSIBIOS                        :        4     paged (guest)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_LSIRings                       :        4     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_PCIPBIOS                       :        0     paged (guest)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_PVSCSIBIOS                     :        0     paged (guest)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_PVSCSIKickReg                  :        0     paged (guest)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_SAS1068BIOS                    :        4     paged (guest)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_SBIOS                          :       16     paged (guest)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_FlashRam                       :      128     paged (guest)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_SHPC_MemReg                    :        2     paged (guest)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_SVGAFB                         :    32768     paged (guest)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_SVGAMEM                        :      512     paged (guest)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_HDAudioReg                     :        3     paged (guest)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_EHCIRegister                   :        1     paged (guest)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_XhciRegister                   :        1     paged (guest)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_PhysMemDebug                   :        0     paged (guest)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_MainMem                        :    65536     paged (mainmem)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_HVIOBitmap                     :        3     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_HVMSRBitmap                    :        2     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_vhvMSRBitmap                   :        2     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_vhvCachedVMCS                  :        1     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_StateLoggerLogBuf              :        0     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_DebugStubSSEvents              :        1     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_DebugStubBWPEvents             :        1     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_PCIP                           :        0     paged (guest)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_VMsafe                         :        0     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_MonWired                       :       47     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_MonLow                         :        2     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_MonWiredNuma                   :       26     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_MonNuma                        :      193     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_MonOther                       :       16     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_MonAnon                        :     6326     nonpaged (anon)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_SVMLowMem                      :        2     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_PAEShadow                      :        1     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem OvhdUser_FTCpt                          :        0     nonpaged (memmap)
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem Total                                   :   106158
+2016-08-26T09:10:05.529+05:30| vmx| I120: 
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon Detailed Sources                             reserved
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_Alloc                           :          47
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_BusMemFrame                     :        1352
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_BusMemFramePGAR                 :           3
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_BusMemMMTracePGAR               :           1
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_BusMem2MRegionPGAR              :           1
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_BusMemZapListMPN                :           1
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_MMU                             :          50
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_ScratchAS                       :          12
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_MonTLB                          :           6
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_DT                              :          21
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_TCCoherency                     :          21
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_TC                              :        4096
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_ChainInfo                       :          65
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_Island                          :           1
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_BusMemScratchAS                 :           5
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_PlatformScratchAS               :           3
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_BackdoorHintsMPN                :           2
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_HV                              :           2
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_VNPTShadow                      :           0
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_VNPTShadowCache                 :          11
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_VNPTBackmap                     :           0
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_SVMIDT                          :           1
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_CallStackProfAnon               :           0
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_Numa                            :         597
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_WiredNuma                       :          26
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_GPhysTraced                     :           0
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_GPhysEPT                        :           0
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_GPhysNoTrace                    :           0
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_BTScratchPage                   :           1
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_StateLoggerBufferPA             :           1
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_TraceALot                       :           0
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_VIDE                            :           0
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_VMXNETWake                      :           0
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_BusLogic                        :           0
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_PVSCSIShadowRing                :           0
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_LSIRings                        :           0
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon OvhdMon_FTCptScratchAS                  :           0
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdAnon Total                                   :        6326
+2016-08-26T09:10:05.529+05:30| vmx| I120: 
+2016-08-26T09:10:05.529+05:30| vmx| I120: OvhdMem initial overheads: paged 98985 nonpaged 7170 anonymous 0
+2016-08-26T09:10:05.529+05:30| vmx| I120: 
+2016-08-26T09:10:05.529+05:30| vmx| I120: VMMEM: Precise Reservation: 28MB (MainMem=256MB SVGA=130MB)
+2016-08-26T09:10:05.529+05:30| vmx| I120: Vix: [5648 mainDispatch.c:999]: VMAutomation_PowerOn. Powering on.
+2016-08-26T09:10:05.529+05:30| vmx| I120: VMX_PowerOn: ModuleTable_PowerOn = 1
+2016-08-26T09:10:05.576+05:30| mks| I120: VTHREAD start thread 1 "mks" host id 4864
+2016-08-26T09:10:05.576+05:30| mks| I120: Async MKS thread is alive
+2016-08-26T09:10:05.576+05:30| vmx| I120: hread 4864 3156VTHREAD start thread 3 "vcpu-0" host id 5724
+2016-08-26T09:10:05.576+05:30| vmx| I120: hread 5724 3156APIC: version = 0x14, max LVT = 5
+2016-08-26T09:10:05.576+05:30| vcpu-0| I120: APIC: LDR = 0x1000000, DFR = 0xffffffff
+2016-08-26T09:10:05.607+05:30| mks| I120: D3D-Backend: successfully started by renderMux to do screen composition.
+2016-08-26T09:10:05.607+05:30| mks| I120: D3D-Backend: stopped by renderMux to do screen composition.
+2016-08-26T09:10:05.607+05:30| vcpu-0| I120: CPU reset: hard (mode 2)
+2016-08-26T09:10:05.607+05:30| vcpu-0| I120: PIIX4: PM Resuming from suspend type 0x0, chipset.onlineStandby 0
+2016-08-26T09:10:05.607+05:30| vcpu-0| I120: VNET: MACVNetConnectToNetwork Ethernet2: notify available
+2016-08-26T09:10:05.607+05:30| vcpu-0| I120: VNET: MACVNetConnectToNetwork Ethernet1: notify available
+2016-08-26T09:10:05.607+05:30| vcpu-0| I120: VNET: MACVNetConnectToNetwork Ethernet0: notify available
+2016-08-26T09:10:05.638+05:30| vcpu-0| I120: Vix: [5724 mainDispatch.c:4067]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1872, success=1 additionalError=0
+2016-08-26T09:10:05.685+05:30| vcpu-0| I120: Vix: [5724 mainDispatch.c:3987]: VMAutomationReportPowerStateChange: Reporting power state change (opcode=0, err=0).
+2016-08-26T09:10:05.685+05:30| vcpu-0| I120: Vix: [5724 mainDispatch.c:3987]: VMAutomationReportPowerStateChange: Reporting power state change (opcode=2, err=0).
+2016-08-26T09:10:05.685+05:30| vcpu-0| I120: Transitioned vmx/execState/val to poweredOn
+2016-08-26T09:10:05.685+05:30| vcpu-0| I120: VMM initialized.
+2016-08-26T09:10:05.701+05:30| vcpu-0| I120: Monitor has started
+2016-08-26T09:10:05.701+05:30| vcpu-0| I120: MonitorInitNumaUnmapVMM
+2016-08-26T09:10:06.029+05:30| mks| I120: MKS-SWB: Window #0 validation failed: no valid host window or host surface.
+2016-08-26T09:10:06.060+05:30| mks| I120: KHBKL: Unable to parse keystring at: ''
+2016-08-26T09:10:06.060+05:30| mks| I120: MKS-SWB: Window #0 validation failed: no valid host window or host surface.
+2016-08-26T09:10:06.123+05:30| vcpu-0| I120: SVGA: Registering MemSpace at 0xd0000000(0x0) and 0xd8000000(0x0)
+2016-08-26T09:10:06.123+05:30| vcpu-0| I120: SVGA: Unregistering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+2016-08-26T09:10:06.357+05:30| vcpu-0| I120: SVGA: Registering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+2016-08-26T09:10:06.373+05:30| vcpu-0| I120: SVGA: Unregistering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+2016-08-26T09:10:06.373+05:30| vcpu-0| I120: SVGA: Registering IOSpace at 0x10d0
+2016-08-26T09:10:06.373+05:30| vcpu-0| I120: SVGA: Registering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+2016-08-26T09:10:06.373+05:30| vcpu-0| I120: PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.373+05:30| vcpu-0| I120: pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.373+05:30| vcpu-0| I120: pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.388+05:30| vcpu-0| I120: pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.388+05:30| vcpu-0| I120: pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.388+05:30| vcpu-0| I120: pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.388+05:30| vcpu-0| I120: pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.388+05:30| vcpu-0| I120: pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.388+05:30| vcpu-0| I120: PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.388+05:30| vcpu-0| I120: pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.388+05:30| vcpu-0| I120: pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.388+05:30| vcpu-0| I120: pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.388+05:30| vcpu-0| I120: pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.388+05:30| vcpu-0| I120: pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.404+05:30| vcpu-0| I120: pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.404+05:30| vcpu-0| I120: pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.404+05:30| vcpu-0| I120: PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.404+05:30| vcpu-0| I120: pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.404+05:30| vcpu-0| I120: pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.404+05:30| vcpu-0| I120: pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.404+05:30| vcpu-0| I120: pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.404+05:30| vcpu-0| I120: pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.404+05:30| vcpu-0| I120: pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.404+05:30| vcpu-0| I120: pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.404+05:30| vcpu-0| I120: PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.419+05:30| vcpu-0| I120: pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.419+05:30| vcpu-0| I120: pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.419+05:30| vcpu-0| I120: pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.419+05:30| vcpu-0| I120: pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.419+05:30| vcpu-0| I120: pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.419+05:30| vcpu-0| I120: pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.419+05:30| vcpu-0| I120: pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.576+05:30| mks| I120: GDI-Backend: successfully started by HWinMux to do window composition.
+2016-08-26T09:10:06.576+05:30| mks| I120: MKS: Base polling period is 10000us
+2016-08-26T09:10:06.591+05:30| mks| I120: MKS-SWB: Number of MKSWindows changed: 1 rendering MKSWindow(s) of total 1.
+2016-08-26T09:10:06.654+05:30| vcpu-0| I120: PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.654+05:30| vcpu-0| I120: pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.669+05:30| vcpu-0| I120: pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.669+05:30| vcpu-0| I120: pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.669+05:30| vcpu-0| I120: pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.669+05:30| vcpu-0| I120: pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.669+05:30| vcpu-0| I120: pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.669+05:30| vcpu-0| I120: pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.669+05:30| vcpu-0| I120: PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.669+05:30| vcpu-0| I120: pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.669+05:30| vcpu-0| I120: pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.669+05:30| vcpu-0| I120: pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.669+05:30| vcpu-0| I120: pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.685+05:30| vcpu-0| I120: pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.685+05:30| vcpu-0| I120: pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.685+05:30| vcpu-0| I120: pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.685+05:30| vcpu-0| I120: PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.685+05:30| vcpu-0| I120: pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.685+05:30| vcpu-0| I120: pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.685+05:30| vcpu-0| I120: pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.685+05:30| vcpu-0| I120: pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.685+05:30| vcpu-0| I120: pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.685+05:30| vcpu-0| I120: pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.685+05:30| vcpu-0| I120: pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.685+05:30| vcpu-0| I120: PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.701+05:30| vcpu-0| I120: pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.701+05:30| vcpu-0| I120: pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.701+05:30| vcpu-0| I120: pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.701+05:30| vcpu-0| I120: pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.701+05:30| vcpu-0| I120: pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.701+05:30| vcpu-0| I120: pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.701+05:30| vcpu-0| I120: pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+2016-08-26T09:10:06.716+05:30| vcpu-0| I120: DISKUTIL: scsi0:0 : geometry=261/255/63
+2016-08-26T09:10:06.716+05:30| vcpu-0| I120: DISKUTIL: scsi0:0 : capacity=4194304
+2016-08-26T09:10:06.716+05:30| vcpu-0| I120: DISKUTIL: scsi0:1 : geometry=3916/255/63
+2016-08-26T09:10:06.716+05:30| vcpu-0| I120: DISKUTIL: scsi0:1 : capacity=62914560
+2016-08-26T09:10:06.716+05:30| vcpu-0| I120: SCSI0: RESET BUS
+2016-08-26T09:10:07.482+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:10:10.158+05:30| vcpu-0| I120: SVGA: Unregistering IOSpace at 0x10d0
+2016-08-26T09:10:10.158+05:30| vcpu-0| I120: SVGA: Registering IOSpace at 0xfffffff0
+2016-08-26T09:10:10.158+05:30| vcpu-0| I120: SVGA: Unregistering IOSpace at 0xfffffff0
+2016-08-26T09:10:10.158+05:30| vcpu-0| I120: SVGA: Registering IOSpace at 0x10d0
+2016-08-26T09:10:21.451+05:30| vcpu-0| I120: SCSI0: RESET BUS
+2016-08-26T09:10:21.470+05:30| vcpu-0| I120: SCSI scsi0:0: Unsupported command READ BUFFER issued. --ok
+2016-08-26T09:10:21.470+05:30| vcpu-0| I120: SCSI scsi0:0: Unsupported command READ BUFFER issued. --ok
+2016-08-26T09:10:21.470+05:30| vcpu-0| I120: SCSI scsi0:1: Unsupported command READ BUFFER issued. --ok
+2016-08-26T09:10:21.470+05:30| vcpu-0| I120: SCSI scsi0:1: Unsupported command READ BUFFER issued. --ok
+2016-08-26T09:10:24.451+05:30| vcpu-0| I120: DISKLIB-DDB   : "longContentID" = "b9eb2ce7b550b0e12ba240941e85193e" (was "4dfcff658e3bf0b822ded69714aa8570")
+2016-08-26T09:11:05.698+05:30| vmx| I120: GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2016-08-26T09:11:17.193+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:17.193+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:17.193+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:17.193+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:17.193+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:17.193+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:22.201+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:22.201+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:22.201+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:22.201+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:52.209+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:52.209+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:53.221+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:53.221+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:53.221+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:53.221+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:54.229+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:54.229+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:54.229+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:54.229+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:55.241+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:55.241+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:55.241+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:11:55.241+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:01.260+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:01.260+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:01.260+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:01.260+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:07.276+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:07.276+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:07.276+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:07.276+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:13.311+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:13.311+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:13.311+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:13.311+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:19.350+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:19.350+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:19.350+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:19.350+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:25.389+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:25.389+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:55.395+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:55.395+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:56.407+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:56.407+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:56.407+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:12:56.407+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:02.426+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:02.426+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:02.426+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:02.426+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:06.262+05:30| vmx| I120: GuestRpcSendTimedOut: message to toolbox timed out.
+2016-08-26T09:13:06.262+05:30| vmx| I120: Vix: [5648 guestCommands.c:2109]: Error VIX_E_TOOLS_NOT_RUNNING in VMAutomationTranslateGuestRpcError(): VMware Tools are not running in the guest
+2016-08-26T09:13:08.454+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:08.454+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:08.454+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:08.454+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:14.483+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:14.483+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:14.483+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:14.483+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:20.502+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:20.502+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:20.502+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:20.502+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:26.522+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:26.522+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:56.531+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:56.531+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:57.542+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:57.542+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:57.542+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:13:57.542+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:03.570+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:03.570+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:03.570+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:03.570+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:09.589+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:09.589+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:09.589+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:09.589+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:15.612+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:15.612+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:15.612+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:15.612+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:21.631+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:21.631+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:21.631+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:21.631+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:27.651+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:27.651+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:57.668+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:57.668+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:58.676+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:58.676+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:58.676+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:14:58.676+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:04.696+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:04.696+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:04.696+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:04.696+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:10.715+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:10.715+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:10.715+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:10.715+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:16.740+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:16.740+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:16.740+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:16.740+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:22.759+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:22.759+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:22.759+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:22.759+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:28.779+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:28.779+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:58.786+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:58.786+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:59.793+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:59.793+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:59.793+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:15:59.793+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:16:00.805+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:16:00.805+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:16:00.805+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:16:00.805+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:16:06.825+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:16:06.825+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:16:06.825+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:16:06.825+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:16:12.844+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:16:12.844+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:16:12.844+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:16:12.844+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:16:18.885+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:16:18.885+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:16:18.885+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:16:18.885+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:16:24.924+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:16:24.924+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:16:24.924+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:16:24.924+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:16:30.952+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:16:30.952+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:00.953+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:00.953+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:01.972+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:01.972+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:01.972+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:01.972+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:08.011+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:08.011+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:08.011+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:08.011+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:14.039+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:14.039+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:14.039+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:14.039+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:20.061+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:20.061+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:20.061+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:20.061+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:26.080+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:26.080+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:26.081+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:26.081+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:32.110+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:17:32.110+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:02.118+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:02.118+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:03.129+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:03.129+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:03.133+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:03.133+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:09.157+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:09.157+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:09.157+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:09.157+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:15.176+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:15.176+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:15.176+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:15.176+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:21.197+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:21.197+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:21.197+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:21.197+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:27.216+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:27.216+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:27.216+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:27.216+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:33.236+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:18:33.236+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:03.251+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:03.251+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:04.263+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:04.263+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:04.263+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:04.263+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:10.283+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:10.283+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:10.283+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:10.283+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:16.302+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:16.302+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:16.302+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:16.302+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:22.322+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:22.322+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:22.322+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:22.322+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:28.352+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:28.352+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:28.352+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:28.352+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:34.379+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:19:34.379+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:04.380+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:04.380+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:05.392+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:05.392+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:05.392+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:05.392+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:05.587+05:30| vmx| I120: TOOLS Setting tools version to 0 inside ToolsFixVersionCB callback.
+2016-08-26T09:20:05.587+05:30| vmx| I120: ToolsSetVersionWork did nothing; new tools version (0) matches old Tools version
+2016-08-26T09:20:11.412+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:11.412+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:11.412+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:11.412+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:17.439+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:17.439+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:17.439+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:17.439+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:23.466+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:23.466+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:23.466+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:23.466+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:29.489+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:29.489+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:29.489+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:29.489+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:35.508+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:20:35.508+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:05.507+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:05.507+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:06.527+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:06.527+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:06.527+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:06.527+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:12.554+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:12.554+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:12.554+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:12.554+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:18.574+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:18.574+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:18.574+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:18.574+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:24.593+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:24.593+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:24.593+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:24.593+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:30.614+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:30.614+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:30.614+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:30.614+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:36.633+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:21:36.633+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:06.653+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:06.653+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:07.661+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:07.661+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:07.661+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:07.661+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:13.680+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:13.680+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:13.680+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:13.680+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:19.700+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:19.700+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:19.700+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:19.700+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:25.720+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:25.720+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:25.720+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:25.720+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:31.742+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:31.742+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:31.742+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:31.742+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:37.761+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:22:37.761+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:07.774+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:07.774+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:08.782+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:08.782+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:08.782+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:08.782+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:14.802+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:14.802+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:14.802+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:14.802+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:20.822+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:20.822+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:20.822+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:20.822+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:26.853+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:26.853+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:26.853+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:26.853+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:32.894+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:32.894+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:32.894+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:32.894+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:38.933+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:23:38.933+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:08.943+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:08.943+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:09.962+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:09.962+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:09.962+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:09.962+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:10.982+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:10.982+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:10.982+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:10.982+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:17.021+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:17.021+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:17.021+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:17.021+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:23.048+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:23.048+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:23.048+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:23.048+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:29.068+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:29.068+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:29.068+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:29.068+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:35.087+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:35.087+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:35.087+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:35.087+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:41.111+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:24:41.111+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:11.132+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:11.132+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:12.140+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:12.140+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:12.140+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:12.140+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:18.160+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:18.160+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:18.160+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:18.160+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:24.179+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:24.179+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:24.179+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:24.179+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:30.199+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:30.199+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:30.199+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:30.199+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:36.218+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:36.218+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:36.222+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:36.222+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:42.241+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:25:42.241+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:12.260+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:12.260+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:13.268+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:13.268+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:13.268+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:13.268+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:19.288+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:19.288+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:19.288+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:19.288+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:25.307+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:25.307+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:25.307+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:25.307+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:31.327+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:31.327+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:31.327+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:31.327+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:37.346+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:37.346+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:37.346+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:37.346+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:43.391+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:26:43.391+05:30| vcpu-0| I120: BIOS-UUID is 56 4d 07 a1 37 0f d0 8f-f8 6a ab dc 43 7e 32 30
+2016-08-26T09:27:05.917+05:30| vmx| I120: VMXVmdbCbVmVmxExecState: Exec state change requested to state poweredOff without reset, hard, softOptionTimeout: 20000000.
+2016-08-26T09:27:05.917+05:30| vmx| I120: Stopping VCPU threads...
+2016-08-26T09:27:05.957+05:30| mks| I120: GDI-Backend: stopped by HWinMux to do window composition.
+2016-08-26T09:27:05.957+05:30| mks| I120: Async MKS thread is exiting
+2016-08-26T09:27:05.957+05:30| vmx| I120: Vix: [5648 mainDispatch.c:1118]: VMAutomation_PowerOff: Powering off.
+2016-08-26T09:27:05.957+05:30| vmx| I120: 
+2016-08-26T09:27:05.957+05:30| vmx| I120+ OvhdMem: Final Overheads
+2016-08-26T09:27:05.957+05:30| vmx| I120: 
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem: Vmx overhead                              max used  max reserved  avg used
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VgaShadowFB                    :        X   [     512]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VmxAllocTrack                  :        X   [       0]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VmxCallStackProf               :        X   [       0]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VmxGlobals                     :        X   [   10240]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VmxGlobalsLibs                 :        X   [    2560]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VmxHeap                        :        X   [    5120]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VmxMainMemCheck                :        X   [       0]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VmxMks3d                       :        X   [       0]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VmxMksShadowFB                 :        X   [   32768]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VmxPhysMemRingBuf              :        X   [       0]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VmxReplayCheck                 :        X   [       0]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VmxSLEntryBuf                  :        X   [     128]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VmxText                        :        X   [    3328]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VmxTextLibs                    :        X   [   15360]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VmxThreadMks                   :        X   [     512]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VmxThreadVmx                   :        X   [     512]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VmxThreadsVcpu                 :        X   [     256]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VmxThreadsWorker               :        X   [   16384]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem Total                                   :        0      87680
+2016-08-26T09:27:05.957+05:30| vmx| I120: 
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem: Vmm overhead                              max used  max reserved  avg used
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_SharedArea                     :       34         89         34
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_TraceBitmapMainMem             :        2          2          2
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_KSTATS_vmm                     :        X   [       0]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_STATS_vmm                      :        X   [       2]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_KSTATS_device                  :        X   [       0]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_STATS_device                   :        X   [       1]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_KSTATS_migrate                 :        X   [       0]
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_PFrame                         :      334        334        334
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VProbe                         :        0          0          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_DFStackvcpu                    :        0          1          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_DFCR3vcpu                      :        0          3          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_DFCR3PTvcpu                    :        0          1          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_DFCR3PageDirForSwitchPg        :        0          1          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VIDE_KSEG                      :       16         16         16
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VGA                            :       64         64         64
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_BusMemRemap                    :        0          0          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_PShareMPN                      :        5          6          5
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_P2MUpdateMPN                   :        1          1          1
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_P2MUpdateBuffer                :        3          3          3
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_SharedMPNsPool                 :        0         20          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_SwapMPN                        :        1          1          1
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VMCIMPN                        :        1          1          1
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_LocalApic                      :        1          1          1
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_BusError                       :        1          1          1
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VBIOS                          :        8          8          8
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VnicGuest                      :        0          0          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VnicMmap                       :        0          0          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_LSIBIOS                        :        2          4          2
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_LSIRings                       :        0          4          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_PCIPBIOS                       :        0          0          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_PVSCSIBIOS                     :        0          0          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_PVSCSIKickReg                  :        0          0          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_SAS1068BIOS                    :        0          4          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_SBIOS                          :        0         16          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_FlashRam                       :       75        128         75
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_SHPC_MemReg                    :        0          2          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_SVGAFB                         :        0      32768          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_SVGAMEM                        :        0        512          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_HDAudioReg                     :        0          3          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_EHCIRegister                   :        0          1          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_XhciRegister                   :        0          1          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_PhysMemDebug                   :        0          0          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_MainMem                        :    50853      65536      47050
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_HVIOBitmap                     :        0          3          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_HVMSRBitmap                    :        0          2          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_vhvMSRBitmap                   :        0          2          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_vhvCachedVMCS                  :        0          1          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_StateLoggerLogBuf              :        0          0          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_DebugStubSSEvents              :        1          1          1
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_DebugStubBWPEvents             :        1          1          1
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_PCIP                           :        0          0          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_VMsafe                         :        0          0          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_MonWired                       :       47         47         47
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_MonLow                         :        0          2          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_MonWiredNuma                   :       26         26          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_MonNuma                        :      193        193          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_MonOther                       :        0         16          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_MonAnon                        :     7875       9786          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_SVMLowMem                      :        0          2          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_PAEShadow                      :        0          1          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem OvhdUser_FTCpt                          :        0          0          0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdMem Total                                   :    59544     109618
+2016-08-26T09:27:05.957+05:30| vmx| I120: 
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon Detailed Sources                         max used  max rsvd  avg used
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_Alloc                           :       0       47        0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_BusMemFrame                     :    1297     1352     1297
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_BusMemFramePGAR                 :       3        3        3
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_BusMemMMTracePGAR               :       1        1        1
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_BusMem2MRegionPGAR              :       1        1        1
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_BusMemZapListMPN                :       1        1        1
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_MMU                             :    1622     2998     1514
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_ScratchAS                       :      12       12       12
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_MonTLB                          :       6        6        6
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_DT                              :       2       21        1
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_TCCoherency                     :      19       21       18
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_TC                              :    4608     4608     4096
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_ChainInfo                       :      65       65       65
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_Island                          :       0        1        0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_BusMemScratchAS                 :       5        5        5
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_PlatformScratchAS               :       1        3        1
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_BackdoorHintsMPN                :       0        2        0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_HV                              :       0        2        0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_VNPTShadow                      :       0        0        0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_VNPTShadowCache                 :       0       11        0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_VNPTBackmap                     :       0        0        0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_SVMIDT                          :       0        1        0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_CallStackProfAnon               :       0        0        0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_Numa                            :     227      597      223
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_WiredNuma                       :       4       26        4
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_GPhysTraced                     :       0        0        0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_GPhysEPT                        :       0        0        0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_GPhysNoTrace                    :       0        0        0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_BTScratchPage                   :       1        1        1
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_StateLoggerBufferPA             :       0        1        0
+2016-08-26T09:27:05.957+05:30| vmx| I120: OvhdAnon OvhdMon_TraceALot                       :       0        0        0
+2016-08-26T09:27:05.960+05:30| vmx| I120: OvhdAnon OvhdMon_VIDE                            :       0        0        0
+2016-08-26T09:27:05.960+05:30| vmx| I120: OvhdAnon OvhdMon_VMXNETWake                      :       0        0        0
+2016-08-26T09:27:05.960+05:30| vmx| I120: OvhdAnon OvhdMon_BusLogic                        :       0        0        0
+2016-08-26T09:27:05.960+05:30| vmx| I120: OvhdAnon OvhdMon_PVSCSIShadowRing                :       0        0        0
+2016-08-26T09:27:05.960+05:30| vmx| I120: OvhdAnon OvhdMon_LSIRings                        :       0        0        0
+2016-08-26T09:27:05.960+05:30| vmx| I120: OvhdAnon OvhdMon_FTCptScratchAS                  :       0        0        0
+2016-08-26T09:27:05.960+05:30| vmx| I120: OvhdAnon Total                                   :    7875     9786
+2016-08-26T09:27:05.960+05:30| vmx| I120: 
+2016-08-26T09:27:05.960+05:30| vmx| I120: OvhdMem maximum overheads: paged 98985 nonpaged 7170 anonymous 0
+2016-08-26T09:27:05.960+05:30| vmx| I120: 
+2016-08-26T09:27:05.960+05:30| vmx| I120: OvhdMem: average total user: 48698 anon: 7251
+2016-08-26T09:27:05.960+05:30| vmx| I120: VMMEM: Maximum Reservation: 28MB (MainMem=256MB SVGA=130MB)
+2016-08-26T09:27:05.960+05:30| vmx| I120: MemSched: PSHARE HIST [0, 65536]: 0 0 0 981 0 1 16 2 1 14 3 1
+2016-08-26T09:27:05.960+05:30| vmx| I120: MemSched: PSHARE P50 20 P70 20 P90 20 MIN 14493 MAX 65536
+2016-08-26T09:27:05.960+05:30| vmx| I120: MemSched: BALLOON HIST [0, 65536]: 1018 1018 0 0 0 0 0 0 0 0 0 0
+2016-08-26T09:27:05.960+05:30| vmx| I120: MemSched: BALLOON P50 1 P70 1 P90 1 MIN 0 MAX 0
+2016-08-26T09:27:05.960+05:30| vmx| I120: MemSched: SWAP HIST [0, 65536]: 1018 1018 0 0 0 0 0 0 0 0 0 0
+2016-08-26T09:27:05.960+05:30| vmx| I120: MemSched: SWAP P50 1 P70 1 P90 1 MIN 0 MAX 0
+2016-08-26T09:27:05.960+05:30| vmx| I120: MemSched: LOCK HIST [0, 65536]: 0 1 2 14 1 2 16 1 0 981 0 0
+2016-08-26T09:27:05.960+05:30| vmx| I120: MemSched: LOCK P50 90 P70 90 P90 90 MIN 733 MAX 58614
+2016-08-26T09:27:05.960+05:30| vmx| I120: MemSched: LOCK_TARGET HIST [0, 65536]: 0 0 0 0 0 0 0 0 0 0 1018 1018
+2016-08-26T09:27:05.960+05:30| vmx| I120: MemSched: LOCK_TARGET P50 100 P70 100 P90 100 MIN 65536 MAX 108884
+2016-08-26T09:27:05.960+05:30| vmx| I120: MemSched: ACTIVE_PCT HIST [0, 100]: 0 282 121 119 61 60 59 0 316 0 0 0
+2016-08-26T09:27:05.960+05:30| vmx| I120: MemSched: ACTIVE_PCT P50 30 P70 80 P90 80 MIN 6 MAX 75
+2016-08-26T09:27:05.960+05:30| vmx| I120: MemSched: NUM_VMS HIST [0, 10]: 0 0 1018 0 0 0 0 0 0 0 0 0
+2016-08-26T09:27:05.960+05:30| vmx| I120: MemSched: NUM_VMS P50 20 P70 20 P90 20 MIN 1 MAX 1
+2016-08-26T09:27:05.960+05:30| vmx| I120: MemSched: HOSTLOCK HIST [0, 378112]: 0 31 987 0 0 0 0 0 0 0 0 0
+2016-08-26T09:27:05.960+05:30| vmx| I120: MemSched: HOSTLOCK P50 20 P70 20 P90 20 MIN 733 MAX 58614
+2016-08-26T09:27:05.960+05:30| vmx| I120: TOOLS received request in VMX to set option 'enableDnD' -> '0'
+2016-08-26T09:27:05.960+05:30| vmx| I120: TOOLS received request in VMX to set option 'copypaste' -> '0'
+2016-08-26T09:27:05.964+05:30| vmx| I120: VMXVmdb_SetToolsVersionState: status value set to 'notAvailable'
+2016-08-26T09:27:05.968+05:30| vmx| I120: MKS-SWB: Number of MKSWindows changed: 0 rendering MKSWindow(s) of total 0.
+2016-08-26T09:27:05.968+05:30| vmx| I120: MKS local poweroff
+2016-08-26T09:27:05.968+05:30| vmx| I120: scsi0:1: numIOs = 2 numMergedIOs = 0 numSplitIOs = 0 ( 0.0%)
+2016-08-26T09:27:05.968+05:30| vmx| I120: Closing disk scsi0:1
+2016-08-26T09:27:06.132+05:30| vmx| I120: scsi0:0: numIOs = 1090 numMergedIOs = 43 numSplitIOs = 1 ( 2.3%)
+2016-08-26T09:27:06.132+05:30| vmx| I120: Closing disk scsi0:0
+2016-08-26T09:27:06.195+05:30| vmx| I120: AIOWIN32C: asyncOps=1228 syncOps=144 bufSize=0Kb fixedOps=0 sgOps=950 sgOn=1
+2016-08-26T09:27:06.195+05:30| aioCompletion| I120: AIO thread processed 1228 completions
+2016-08-26T09:27:06.195+05:30| vmx| I120: AIOWIN32: asyncOps=0 syncOps=0 bufSize=0Kb delayed=0 fixed=0 sgOp=0 sgOn=1
+2016-08-26T09:27:06.269+05:30| vmx| I120: WORKER: asyncOps=1 maxActiveOps=1 maxPending=0 maxCompleted=0
+2016-08-26T09:27:06.273+05:30| WinNotifyThread| I120: WinNotify thread exiting
+2016-08-26T09:27:06.292+05:30| vmx| I120: Vix: [5648 mainDispatch.c:4067]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2016-08-26T09:27:06.292+05:30| vmx| I120: Vix: [5648 mainDispatch.c:4086]: VMAutomation: Ignoring ReportPowerOpFinished because the VMX is shutting down.
+2016-08-26T09:27:06.371+05:30| vmx| I120: Vix: [5648 mainDispatch.c:4067]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2016-08-26T09:27:06.371+05:30| vmx| I120: Vix: [5648 mainDispatch.c:4086]: VMAutomation: Ignoring ReportPowerOpFinished because the VMX is shutting down.
+2016-08-26T09:27:06.371+05:30| vmx| I120: Transitioned vmx/execState/val to poweredOff
+2016-08-26T09:27:06.371+05:30| vmx| I120: VMX idle exit
+2016-08-26T09:27:06.371+05:30| vmx| I120: VMIOP: Exit
+2016-08-26T09:27:06.386+05:30| vmx| I120: Vix: [5648 mainDispatch.c:869]: VMAutomation_LateShutdown()
+2016-08-26T09:27:06.386+05:30| vmx| I120: Vix: [5648 mainDispatch.c:819]: VMAutomationCloseListenerSocket. Closing listener socket.
+2016-08-26T09:27:06.386+05:30| vmx| I120: Flushing VMX VMDB connections
+2016-08-26T09:27:06.386+05:30| vmx| I120: VmdbDbRemoveCnx: Removing Cnx from Db for '/db/connection/#1/'
+2016-08-26T09:27:06.386+05:30| vmx| I120: VmdbCnxDisconnect: Disconnect: closed pipe for pub cnx '/db/connection/#1/' (0)
+2016-08-26T09:27:06.402+05:30| vmx| I120: VMX exit (0).
+2016-08-26T09:27:06.402+05:30| vmx| I120: AIOMGR-S : stat o=2 r=12 w=0 i=0 br=111616 bw=0
+2016-08-26T09:27:06.402+05:30| vmx| I120: FileTrack_Exit: done

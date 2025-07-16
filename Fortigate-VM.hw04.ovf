@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ovf:Envelope xmlns:ovf="http://www.vmware.com/schema/ovf/1/envelope" xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData" xmlns:vssd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_VirtualSystemSettingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ovf:version="0.9">
+<References>
+<File ovf:href="fortios.vmdk" ovf:id="file1" ovf:size="23836672"/>
+<File ovf:href="datadrive.vmdk" ovf:id="file2" ovf:size="71680"/>
+</References>
+<Section xsi:type="ovf:NetworkSection_Type">
+<Info>List of networks</Info>
+<Network ovf:name="Network 1">
+<Description>The "Network 1" network</Description>
+</Network>
+<Network ovf:name="Network 2">
+<Description>The "Network 2" network</Description>
+</Network>
+<Network ovf:name="Network 3">
+<Description>The "Network 3" network</Description>
+</Network>
+<Network ovf:name="Network 4">
+<Description>The "Network 4" network</Description>
+</Network>
+</Section>
+<Section xsi:type="ovf:DiskSection_Type">
+<Info>List of Virtual Disks</Info>
+<Disk ovf:capacity="2147483648" ovf:diskId="disk1" ovf:fileRef="file1" ovf:format="http://www.vmware.com/specifications/vmdk.html#sparse" ovf:populatedSize="0"/>
+<Disk ovf:capacity="32212254720" ovf:diskId="disk2" ovf:fileRef="file2" ovf:format="http://www.vmware.com/specifications/vmdk.html#sparse" ovf:populatedSize="0"/>
+</Section>
+<Content ovf:id="Fortigate-VM" xsi:type="ovf:VirtualSystem_Type">
+<Info>FGT-VM-4.00-FW-build513-120130-patch05-rel-0513</Info>
+<Section ovf:id="1" ovf:required="false" xsi:type="ovf:OperatingSystemSection_Type">
+<Info>Guest Operating System</Info>
+<Description>Other Linux (32-bit)</Description>
+</Section>
+<Section xsi:type="ovf:VirtualHardwareSection_Type">
+<Info>2 CPU, 256 memory, 2 disks, 4 nics</Info>
+<System>
+<vssd:VirtualSystemType>vmx-04</vssd:VirtualSystemType>
+</System>
+<Item>
+<rasd:Caption>2 virtual CPUs</rasd:Caption>
+<rasd:Description>Number of virtual CPUs</rasd:Description>
+<rasd:InstanceId>1</rasd:InstanceId>
+<rasd:ResourceType>3</rasd:ResourceType>
+<rasd:VirtualQuantity>2</rasd:VirtualQuantity>
+</Item>
+<Item>
+<rasd:Caption>512 MB of memory</rasd:Caption>
+<rasd:Description>Memory Size</rasd:Description>
+<rasd:InstanceId>2</rasd:InstanceId>
+<rasd:ResourceType>4</rasd:ResourceType>
+<rasd:AllocationUnits>MegaBytes</rasd:AllocationUnits>
+<rasd:VirtualQuantity>512</rasd:VirtualQuantity>
+</Item>
+<Item>
+<rasd:Caption>Harddisk 0</rasd:Caption>
+<rasd:InstanceId>12</rasd:InstanceId>
+<rasd:ResourceType>17</rasd:ResourceType>
+<rasd:HostResource>/disk/disk1</rasd:HostResource>
+<rasd:Parent>11</rasd:Parent>
+<rasd:AddressOnParent>0</rasd:AddressOnParent>
+</Item>
+<Item>
+<rasd:Caption>Harddisk 1</rasd:Caption>
+<rasd:InstanceId>13</rasd:InstanceId>
+<rasd:ResourceType>17</rasd:ResourceType>
+<rasd:HostResource>/disk/disk2</rasd:HostResource>
+<rasd:Parent>11</rasd:Parent>
+<rasd:AddressOnParent>1</rasd:AddressOnParent>
+</Item>
+<Item>
+<rasd:Caption>Ethernet adapter on "Network 1"</rasd:Caption>
+<rasd:InstanceId>7</rasd:InstanceId>
+<rasd:ResourceType>10</rasd:ResourceType>
+<rasd:ResourceSubType>E1000</rasd:ResourceSubType>
+<rasd:AutomaticAllocation>true</rasd:AutomaticAllocation>
+<rasd:Connection>Network 1</rasd:Connection>
+<rasd:AddressOnParent>1</rasd:AddressOnParent>
+</Item>
+<Item>
+<rasd:Caption>Ethernet adapter on "Network 2"</rasd:Caption>
+<rasd:InstanceId>8</rasd:InstanceId>
+<rasd:ResourceType>10</rasd:ResourceType>
+<rasd:ResourceSubType>E1000</rasd:ResourceSubType>
+<rasd:AutomaticAllocation>true</rasd:AutomaticAllocation>
+<rasd:Connection>Network 2</rasd:Connection>
+<rasd:AddressOnParent>2</rasd:AddressOnParent>
+</Item>
+<Item>
+<rasd:Caption>Ethernet adapter on "Network 3"</rasd:Caption>
+<rasd:InstanceId>9</rasd:InstanceId>
+<rasd:ResourceType>10</rasd:ResourceType>
+<rasd:ResourceSubType>E1000</rasd:ResourceSubType>
+<rasd:AutomaticAllocation>true</rasd:AutomaticAllocation>
+<rasd:Connection>Network 3</rasd:Connection>
+<rasd:AddressOnParent>3</rasd:AddressOnParent>
+</Item>
+<Item>
+<rasd:Caption>Ethernet adapter on "Network 4"</rasd:Caption>
+<rasd:InstanceId>10</rasd:InstanceId>
+<rasd:ResourceType>10</rasd:ResourceType>
+<rasd:ResourceSubType>E1000</rasd:ResourceSubType>
+<rasd:AutomaticAllocation>true</rasd:AutomaticAllocation>
+<rasd:Connection>Network 4</rasd:Connection>
+<rasd:AddressOnParent>4</rasd:AddressOnParent>
+</Item>
+<Item>
+<rasd:Caption>SCSI Controller 0</rasd:Caption>
+<rasd:InstanceId>11</rasd:InstanceId>
+<rasd:ResourceType>6</rasd:ResourceType>
+<rasd:ResourceSubType>lsilogic</rasd:ResourceSubType>
+<rasd:BusNumber>0</rasd:BusNumber>
+</Item>
+</Section>
+<Section xsi:type="ovf:EulaSection_Type">
+<Info>License Information</Info>
+<License>
+End User License Agreement for FortiGate Virtual Appliance
+
+NOTICE  TO ALL  USERS:  PLEASE READ  THE TERMS  AND  CONDITIONS OF  THE 
+LICENSE AGREEMENT CAREFULLY. FORTINET, INC.  IS WILLING TO LICENSE THIS 
+SOFTWARE TO YOU ONLY ON THE CONDITION  THAT YOU ACCEPT ALL OF THE TERMS 
+OF THIS LICENSE AGREEMENT. BY  CLICKING THE ACCEPT BUTTON OR INSTALLING 
+THE SOFTWARE, YOU (EITHER AN INDIVIDUAL  OR A SINGLE ENTITY) AGREE THAT 
+THIS AGREEMENT IS ENFORCEABLE LIKE  ANY WRITTEN CONTRACT SIGNED BY YOU. 
+IF YOU DO NOT AGREE, CLICK ON THE BUTTON THAT INDICATES THAT YOU DO NOT 
+ACCEPT  THE TERMS  OF THIS  LICENSE AGREEMENT  AND DO  NOT INSTALL  THE 
+SOFTWARE. IF  YOU PURCHASED THE  SOFTWARE ON TANGIBLE MEDIA  (e.g., CD) 
+WITHOUT THE  OPPORTUNITY TO REVIEW THIS  LICENSE AND YOU DO  NOT ACCEPT 
+THIS  LICENSE AGREEMENT,  YOU MAY  OBTAIN A  REFUND OF  THE AMOUNT  YOU 
+ORIGINALLY PAID IF YOU: (A) DO NOT  USE THE SOFTWARE AND (B) RETURN IT, 
+WITH PROOF OF PAYMENT, WITHIN THIRTY  (30) DAYS OF THE PURCHASE DATE TO 
+THE LOCATION FROM WHICH IT WAS OBTAINED.                                
+
+This End User License Agreement (EULA)  is an agreement between you and 
+Fortinet, Inc.  (&quot;Fortinet&quot;), which governs  your use of  this software 
+product.  A  software  license  and  a license  key  or  &quot;unlock  code&quot; 
+(&quot;Software License&quot;), issued  to a designated user only  by Fortinet or 
+its  authorized agents,  is required  for  each computer  on which  the 
+Software is loaded.                                                     
+
+Definitions:  (a)  &quot;Software&quot;  means  (a)  all means  (a)  all  of  the 
+contents of  the files,  disk(s), CD-ROM(s)  or other  media (including 
+electronic  media)  with  which  this Agreement  is  provided  or  such 
+contents  as are  hosted by  Fortinet or  its distributors,  resellers, 
+OEM/MSP partners, or other  business partners (collectively &quot;Authorized 
+Partner(s)&quot;), including but not limited  to (i) Fortinet or third party 
+computer information  or software;  (ii) related  explanatory materials 
+in  printed,  electronic, or  online  form  (&quot;Documentation&quot;); and  (b) 
+upgrades,  modified or  subsequent versions  and updates  (collectively 
+&quot;Updates&quot;), and  Software, if any,  licensed to  you by Fortinet  or an 
+Authorized  Partner  as  part  of a  maintenance  contract  or  service 
+subscription. (b)  &quot;Use&quot; means to  access, install, download,  copy, or 
+otherwise benefit from the Software.                                    
+
+(c) &quot;Subscription Period&quot; means the time  period in which you will have 
+certain rights under this Agreement to  use the software and to receive 
+Updates. The  Subscription Period shall  begin on the earlier  of sixty 
+(60) days after the Software ships from Fortinet or the day you install 
+the Software, and  shall last for the  period of time set  forth in the 
+Documentation  or the  applicable  transaction  documentation from  the 
+Authorized  Partner  from  which  you  obtained  the  Software.  If  no 
+Subscription Period  is provided  in the applicable  documentation, the 
+default term shall  be one (1) year from the  date Fortinet shipped the 
+Software. All  evaluation copies  of the Software  shall have  a ninety 
+(90) day Subscription Period.                                           
+
+
+1. Grant of Non-Exclusive License.
+
+1.1 Grant of  License. Subject to Fortinet's receipt  of the applicable 
+Software  license fees,  and subject  to  the terms  and conditions  of 
+this Agreement,  Fortinet grants  to you the  non-exclusive, revocable, 
+non-transferable,  limited right  to use  the Software  subject to  any 
+restrictions  or  usage  terms  specified  on  the  applicable  product 
+packaging included as  part of the Documentation, on  a single computer 
+running a validly  licensed copy of the operating system  for which the 
+Software was designed  pursuant to a Software License  Key. The license 
+granted herein shall be valid only  for the period of time as specified 
+in the  Subscription Period. The Software  may automatically deactivate 
+and become non-operational  at the end of the  Subscription Period, and 
+you will not be entitled to  receive any Updates to the Software unless 
+the Subscription Period is  renewed. Notwithstanding the foregoing, for 
+Software  which  was  purchased  from an  Authorized  Partner,  certain 
+Software  functions may  be used  (without  any right  to any  Software 
+updates) after termination of the  Subscription Period. Any such use of 
+the  Software  beyond the  Subscription  period  shall continue  to  be 
+governed by this EULA and may be terminated by Fortinet without notice. 
+
+
+1.2 Software License Key. The Software  License Key, which is issued to 
+a designated  computer, enables  you to  use the  Software on  a single 
+computer system. For  volume purchases the Software  License Key issued 
+will allow  You to use the  Software on a the  number computers systems 
+equal to the total number of  purchased licenses. Except as provided in 
+Section 1.3  below, You may not  modify or create derivative  copies of 
+the Software or Software License Key.                                   
+
+
+1.3 Backup Copies  of Software. You may make copies  of the Software as 
+reasonably necessary for the use  authorized above, including as needed 
+for backup and/or archival purposes. You  may install the Software on a 
+single computer  system and  make copies of  the Software  as necessary 
+only for backup and/or archival purposes.  No other copies may be made. 
+Each copy  must reproduce  all copyright  and other  proprietary rights 
+notices on or in the Software.                                          
+
+
+2. Intellectual Property Rights Reserved.  The Software is protected by 
+U.S. and  international copyright laws  and treaties, as well  as other 
+intellectual property laws and treaties. Fortinet and its suppliers (if 
+any)  shall  retain all  right,  title,  and  interest  in and  to  the 
+Software. Your  possession, installation, or  Use of the  Software does 
+not transfer  to you any rights  therein. You must not  remove or alter 
+any copyright notices on any copies of the Software. This Software copy 
+is  licensed, not  sold.  Furthermore,  this EULA  does  not grant  you 
+any  rights in  connection  with  any trademarks  or  service marks  of 
+Fortinet. Fortinet reserves all intellectual property rights, including 
+copyrights, and trademark rights.                                       
+
+
+3.  Restrictions  on Use.  Unless  otherwise  approved by  Fortinet  in 
+writing, you  may not rent,  lease, lend, or  in any way  distribute or 
+transfer  any rights  in this  EULA or  the Software  to third  parties 
+without Fortinet's written approval and subject to written agreement by 
+the recipient of the terms of  this EULA. You may not reverse engineer, 
+decompile,  defeat license  encryption mechanisms,  or disassemble  the 
+Software except and only to the  extent that such activity is expressly 
+permitted by  applicable law  notwithstanding this limitation.  You may 
+not permit  third parties to benefit  from the use or  functionality of 
+the Software via a timesharing, service bureau or other arrangement.    
+
+
+4. Updates. The license as provided for  in Section 1.1 of this EULA is 
+limited to the last version of the Software delivered by Fortinet prior 
+to the expiration  of the applicable Subscription  Period. Fortinet may 
+provide you with  support services related to the Software.  Use of any 
+such  support  services  is  governed  by  the  Fortinet  polices.  Any 
+supplemental software code or  related materials that Fortinet provides 
+to you as part of the support  services is to be considered part of the 
+Software and is subject to the  terms and conditions of this EULA. With 
+respect to any technical information you provide to Fortinet as part of 
+the  support  services,  Fortinet  may use  such  information  for  its 
+business purposes  without restriction,  including for  product support 
+and development. Fortinet will not  use such technical information in a 
+form that personally identifies you.  After the Subscription Period has 
+expired, you have  no further right to receive any  Updates without the 
+purchase of a new maintenance contract or service subscription.         
+
+
+5.  Termination.   This  Agreement   will  terminate   immediately  and 
+automatically  without  notice if  you  breach  any provision  in  this 
+Agreement. Upon termination you must  remove all copies of the Software 
+or any part  of the Software from any and  all computer storage devices 
+and destroy all copies of the Software and documentation. At Fortinet's 
+request, you or  your authorized signatory, will certify  in writing to 
+Fortinet that all complete and partial copies of the Software have been 
+destroyed  and  that none  remain  in  your  possession or  under  your 
+control. The provisions of this Agreement, except for the license grant 
+and warranty, will survive termination.                                 
+
+
+6. Export Restrictions.  The Software is subject to  the regulations of 
+the  United  States  on  export control  (  &quot;US  Export  Administration 
+Regulations&quot;). In the absence of necessary governmental authorizations, 
+the  software  cannot be  exported  or  re-exported to  individuals  or 
+entities included  on certain  lists, or  located in  certain countries 
+subject to  US embargo or  subject of  trade sanctions. You  are solely 
+responsible for any violation of  any relevant legal provisions and you 
+confirm you  do not appear  on the aforementioned restricted  lists and 
+are not a resident or citizen of a country subject to a U.S. embargo or 
+subject to US export licensing.                                         
+
+
+7.  NO  WARRANTIES.  YOU  ACCEPT  THE  SOFTWARE  PRODUCT  AND  SOFTWARE 
+PRODUCT LICENSE  &quot;AS IS,&quot; AND  FORTINET (AND ITS THIRD  PARTY SUPPLIERS 
+AND  LICENSORS)  MAKE  NO  WARRANTY  AS TO  ITS  USE,  PERFORMANCE,  OR 
+OTHERWISE.  TO   THE  MAXIMUM  EXTENT  PERMITTED   BY  APPLICABLE  LAW, 
+FORTINET (AND  ITS THIRD  PARTY SUPPLIERS  AND LICENSORS)  DISCLAIM ALL 
+OTHER  REPRESENTATIONS, WARRANTIES,  AND CONDITIONS,  EXPRESS, IMPLIED, 
+STATUTORY,  OR  OTHERWISE,  INCLUDING,  BUT  NOT  LIMITED  TO,  IMPLIED 
+WARRANTIES  OR  CONDITIONS  OF MERCHANTABILITY,  SATISFACTORY  QUALITY, 
+FITNESS  FOR A  PARTICULAR  PURPOSE, TITLE,  AND NON-INFRINGEMENT.  YOU 
+ASSUME  RESPONSIBILITY  FOR  SELECTING  THE SOFTWARE  TO  ACHIEVE  YOUR 
+INTENDED  RESULTS, AND  FOR THE  INSTALLATION OF,  USE OF,  AND RESULTS 
+OBTAINED FROM THE SOFTWARE. THIS  DISCLAIMER OF WARRANTY CONSTITUTES AN 
+ESSENTIAL  PART  OF  THE  AGREEMENT.  WITHOUT  LIMITING  THE  FOREGOING 
+PROVISIONS,  FORTINET  MAKES NO  WARRANTY  THAT  THE SOFTWARE  WILL  BE 
+ERROR-FREE OR  FREE FROM  INTERRUPTIONS OR OTHER  FAILURES OR  THAT THE 
+SOFTWARE  WILL MEET  YOUR REQUIREMENTS.  SOME STATES  DO NOT  ALLOW THE 
+EXCLUSION OF IMPLIED  WARRANTIES, SO THE ABOVE EXCLUSION  MAY NOT APPLY 
+TO YOU, AND YOU MAY HAVE OTHER RIGHTS, WHICH VARY FROM STATE TO STATE.  
+
+
+8.  LIMITATION  OF  LIABILITY.  THIS  LIMITATION  OF  LIABILITY  IS  TO 
+THE  MAXIMUM EXTENT  PERMITTED BY  APPLICABLE  LAW. IN  NO EVENT  SHALL 
+FORTINET (OR  ITS THIRD  PARTY SUPPLIERS AND  LICENSORS) BE  LIABLE FOR 
+ANY  COSTS OF  SUBSTITUTE PRODUCTS  OR  SERVICES, OR  FOR ANY  SPECIAL, 
+INCIDENTAL, INDIRECT,  OR CONSEQUENTIAL DAMAGES  WHATSOEVER (INCLUDING, 
+WITHOUT  LIMITATION, DAMAGES  FOR  LOSS OF  BUSINESS PROFITS,  BUSINESS 
+INTERRUPTION, OR LOSS OF BUSINESS INFORMATION) ARISING OUT OF THIS EULA 
+OR THE USE OF  OR INABILITY TO USE THE SOFTWARE  PRODUCT OR THE FAILURE 
+TO PROVIDE SUPPORT  SERVICES, EVEN IF FORTINET HAS BEEN  ADVISED OF THE 
+POSSIBILITY OF  SUCH DAMAGES.  IN ANY CASE,  FORTINET'S (AND  ITS THIRD 
+PARTY SUPPLIERS' AND  LICENSORS') ENTIRE LIABILITY ARISING  OUT OF THIS 
+EULA SHALL BE LIMITED TO THE GREATER OF THE AMOUNT ACTUALLY PAID BY YOU 
+FOR THE SOFTWARE PRODUCT OR U.S. $5.00.                                 
+
+
+9. Disclosure  of Personal Information.  Upon download of  the Software 
+and/or payment  of the license  fee, the Software Product  License will 
+indicate  to Fortinet  that  you have  downloaded  the Software  and/or 
+paid  a license  fee. YOUR  PERSONAL IDENTIFIABLE  INFORMATION WILL  BE 
+MAINTAINED BY FORTINET  IN CONFIDENCE IN ACCORDANCE  WITH THE COMPANY'S 
+PRIVACY POLICY.                                                         
+
+
+10. Governing Law; Arbitration; Entire Agreement. This EULA is governed 
+by  the  laws  of  the  State  of  California,  U.S.A.,  excluding  the 
+application of its conflict of  law rules. The English language version 
+of this  agreement is the  operative agreement and any  translations of 
+this agreement are  for convenience. The United  Nations Convention for 
+the International  Sale of Goods  shall not apply any  controversies or 
+claims arising  from or relating  to this  Agreement, or the  breach or 
+validity thereof, which  cannot be amicably settled by  and between the 
+parties, shall be  referred to and finally settled  by arbitration. The 
+place of arbitration shall be  Santa Clara, California, pursuant to the 
+procedures of  Judicial Arbitration  and Mediation Services  (JAMS), or 
+its  successor,  before  a  sole,  mutually  agreeable  arbitrator,  in 
+accordance with the laws of the State of California for agreements made 
+in and  to be  performed in that  State. Judgment on  the Award  may be 
+entered  in any  court having  jurisdiction.  This EULA  is the  entire 
+agreement  between  us  and  supersedes  any  other  communications  or 
+advertising  with respect  to the  Software Product;  this EULA  may be 
+modified only by written agreement signed by authorized representatives 
+of you and Fortinet.                                                    
+
+
+11.  Notice  to  United  States  Government  End  Users.  The  Software 
+and   accompanying  Documentation   are   deemed   to  be   &quot;commercial 
+computer  software&quot; and  &quot;commercial computer  software documentation,&quot; 
+respectively,  pursuant  to  DFAR  Section  227.7202  and  FAR  Section 
+12.212, as  applicable. Any  use, modification,  reproduction, release, 
+performance,  display or  disclosure of  the Software  and accompanying 
+Documentation by the United States  Government shall be governed solely 
+by the  terms of this Agreement  and shall be prohibited  except to the 
+extent expressly permitted by the terms of this Agreement.              
+
+12. Free Software. The Software  may include software elements that are 
+licensed (or sublicensed)  to you under the GNU  General Public License 
+(GPL) or other  similar free software licenses. The  list free software 
+contained in the Software may  be viewed in Fortinet's standard product 
+end  user  license  agreement,  available at  the  following  web  page 
+http://www.fortinet.com/legal.html.                                     
+
+
+13.  Audit  for  Volume  Licenses.   Fortinet  reserves  the  right  to 
+periodically audit you to ensure that you are not using any Software in 
+violation of  this Agreement. During  standard business hours  and upon 
+prior  written  notice,  Fortinet  may  visit you  and  you  will  make 
+available to Fortinet or its  representatives any records pertaining to 
+the Software. The  cost of any requested audit will  be solely borne by 
+Fortinet, unless such audit discloses  an underpayment or amount due to 
+Fortinet in excess of five percent  (5%) of the initial license fee for 
+the Software or  you are using the Software in  an unauthorized manner, 
+in which case you shall pay for the cost of the audit.                  
+
+
+14. Miscellaneous. This Agreement sets forth all rights for the user of 
+the  Software and  is the  entire agreement  between the  parties. This 
+Agreement  supersedes  any  other  communications,  representations  or 
+advertising relating to the  Software and Documentation. This Agreement 
+may  not be  modified except  by a  written addendum  issued by  a duly 
+authorized  representative of  Fortinet. No  provision hereof  shall be 
+deemed waived  unless such  waiver shall  be in  writing and  signed by 
+Fortinet.  If any  provision of  this  Agreement is  held invalid,  the 
+remainder of this Agreement shall continue in full force and effect.    
+
+By clicking on the [&quot;Yes, I accept the terms in the license agreement&quot;] 
+button, you  are accepting and agreeing  to the terms of  this EULA and 
+representing and  warranting that you are  authorized to do so.  If you 
+are not willing to be bound by  the terms of this EULA, please click on 
+the [&quot;No, I  do not accept the terms in  the license agreement&quot;] button 
+and make no further use of the Software.                                
+</License>
+</Section>
+<Section xsi:type="ovf:AnnotationSection_Type">
+<Info>An annotation</Info>
+<Annotation>FortiGate Virtual Appliance by Fortinet Technologies Inc. (http://www.fortinet.com)</Annotation>
+</Section>
+</Content>
+</ovf:Envelope>
